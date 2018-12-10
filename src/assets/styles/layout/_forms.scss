@@ -1,0 +1,303 @@
+/*
+
+FORMS
+
+*/
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.form-control,
+.uneditable-input {
+	&:focus {
+		border-color: rgba($color-red, 0.8);
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba($color-red, 0.6);
+		outline-width: 0;
+		outline: none;
+	}
+
+	/*&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}*/
+}
+
+input[type="file"],
+input[type="radio"],
+input[type="checkbox"] {
+	&:focus {
+		outline: none;
+	}
+}
+
+.btn {
+	padding: 6px 10px;
+
+	&:focus,
+	&:active:focus,
+	&:active.focus,
+	&.focus,
+	&.active:focus,
+	&.active.focus {
+		outline-width: 0;
+		outline: none;
+	}
+
+	&-default {
+		color: black;
+		background-color: transparent;
+		border-color: rgba(115, 115, 115, 0.3);
+
+		&:hover,
+			/* &:focus,
+			&.focus,*/
+		&:active,
+		&.active {
+			color: #333;
+			background-color: #e6e6e6;
+			border-color: #adadad;
+		}
+
+		&.disabled,
+		&[disabled] {
+			border-color: rgba(115, 115, 115, 0.3);
+			background-color: transparent;
+			color: rgba(0, 0, 0, .4);
+			text-shadow: white 1px 1px 0;
+
+			&:hover,
+			&:focus,
+			&.focus,
+			&:active,
+			&.active {
+				border-color: rgba(115, 115, 115, 0.3);
+				background-color: transparent;
+				color: rgba(0, 0, 0, .4);
+				text-shadow: white 1px 1px 0;
+			}
+		}
+
+		.input-group-btn & {
+			background-color: white;
+		}
+	}
+
+	&-primary {
+		background-color: lighten($color-teal, 7%);
+		border-color: $color-teal;
+		//margin-left: 11px;
+
+		&:hover,
+		&:focus,
+		&.focus {
+			background-color: lighten($color-teal, 1%);
+		}
+
+		&:active,
+		&.active {
+			&,
+			&:focus,
+			&.focus {
+				background-color: darken($color-teal, 3%);
+			}
+		}
+	}
+
+	&-xs,
+	.btn-group-xs > & {
+		padding: 1px 5px;
+	}
+
+	&-sm {
+		padding: 5px 10px;
+	}
+
+	&-lg,
+	.btn-group-lg > & {
+		padding: 10px 16px;
+	}
+
+	+ .btn {
+		margin-left: 15px;
+	}
+
+	/*> i {
+		font-size: 14px;
+	}*/
+}
+
+.input-group {
+	&-btn > button > .fa {
+		transform: rotate(0.001deg);
+	}
+
+	&-sm {
+		input[type="text"],
+		.input-group-btn > .btn {
+			padding: 2px 8px;
+		}
+
+		.input-group-btn {
+			i {
+				font-size: inherit;
+			}
+		}
+
+		.input-clear {
+			> .form-control {
+				font-size: 12px;
+				line-height: 1.5;
+				height: 30px;
+				padding: 5px 10px;
+			}
+
+			> .input-group {
+				&-addon,
+				&-btn > .btn {
+					height: 30px;
+					padding: 5px 10px;
+					font-size: 12px;
+					line-height: 1.5;
+					border-radius: 3px;
+				}
+			}
+		}
+
+		&.form-control {
+			padding: 5px 10px;
+		}
+	}
+
+	+ .checkbox {
+		margin-top: 10px;
+	}
+}
+
+fieldset[disabled] {
+	.btn {
+		&-default {
+			&:hover,
+			&:focus,
+			&.focus,
+			&:active,
+			&.active {
+				border-color: rgba(115, 115, 115, 0.3);
+				background-color: transparent;
+				color: rgba(0, 0, 0, .4);
+				text-shadow: white 1px 1px 0;
+			}
+		}
+	}
+}
+
+select.form-control {
+	color: black;
+	background-color: transparent;
+	border-color: rgba(115, 115, 115, .3);
+
+	&:focus {
+		border-color: rgba(199, 36, 32, 0.8);
+		@include box-shadow(0 1px 1px rgba(0, 0, 0, .075) inset, 0 0 8px rgba(199, 36, 32, .6));
+	}
+}
+
+.form {
+	&-control {
+		padding: 6px 10px;
+		color: black;
+	}
+
+	&-group {
+		position: relative;
+
+		> label {
+			font-size: 12px;
+			line-height: 14px;
+			color: #a0a0a0;
+			margin: 0 0 3px;
+			font-weight: bold;
+		}
+
+		.btn {
+			&.help {
+				position: absolute;
+				top: 4px;
+				right: 0;
+				color: black;
+				text-decoration: underline;
+				font-size: 12px;
+				line-height: 12px;
+				padding: 0;
+			}
+		}
+
+		+ .filter-options {
+			margin-top: 10px;
+		}
+	}
+}
+
+.checkbox {
+	> label {
+		@extend .text-not-selectable;
+		color: black;
+	}
+}
+
+.input-clear {
+	position: relative;
+
+	> input[type="text"] {
+		&::-ms-clear,
+		&::-ms-reveal {
+			display: none;
+			width: 0;
+			height: 0;
+		}
+	}
+
+	> button.clear {
+		top: 0;
+		right: 0;
+		position: absolute;
+		background-color: transparent;
+		font-size: 0;
+		color: black;
+		z-index: 10;
+
+		&:after {
+			content: "\f00d";
+			font-family: "FontAwesome";
+			font-size: 12px;
+			line-height: 16px;
+		}
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+
+	> .fa {
+		@include transform(rotate(0.001deg));
+		position: absolute;
+		top: 9px;
+		left: 7px;
+
+		.form-group-sm & {
+			font-size: 12px;
+		}
+	}
+}

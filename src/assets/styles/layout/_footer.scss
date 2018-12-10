@@ -1,0 +1,397 @@
+/*
+
+FOOTER
+
+*/
+footer.global {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	.navbar-nav {
+		margin: 0;
+	}
+	
+	.fat {
+		background-color: #b6b6b6;
+		color: #737373;
+		
+		.row {
+			+ .fat-btm {
+				padding: 12px 0;
+			}
+		}
+		
+		&-social {
+			border-bottom: 1px dotted #F3F3F3;
+
+			> .container {
+				> .row {
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+			}
+
+			.nomura-logo {
+				height: 16px;
+				width: 85px;
+				line-height: 0;
+				font-size: 0;
+				color: transparent;
+				background-image: url("grp--ui-icons--sprite.png");
+				background-position: -5px -201px;
+				position: absolute;
+				top: 9px;
+				left: 15px;
+			}
+
+			.social-buttons {
+				border-left: 1px dotted #F3F3F3;
+				padding-left: 15px;
+				
+				> .navbar-nav {
+					> li {
+						float: left;
+
+						&:last-child {
+							> a {
+								margin-right: 0;
+							}
+						}
+
+						&:hover {
+							> a:before {
+								color: #F3F3F3;
+								@include transition(color 0.15s ease, background 0.15s ease, border 0.15s ease);
+							}
+						}
+
+						> a {
+							width: 24px;
+							height: 24px;
+							padding: 0;
+							margin: 5px 15px;
+							line-height: 0;
+							font-size: 0;
+							color: transparent;
+							position: relative;
+
+							&:before {
+								content: "";
+								font-family: "FontAwesome";
+								font-size: 21px;
+								line-height: 24px;
+								color: #a0a0a0;
+								height: 24px;
+								width: 24px;
+								display: block;
+								position: absolute;
+								left: 0;
+								top: 1px;
+								text-align: center;
+								font-weight: normal;
+								webkit-text-stroke: 0.6px;
+								font-smooth: antialiased;
+								text-rendering: auto;
+								-webkit-font-smoothing: antialiased;
+								-moz-osx-font-smoothing: grayscale;
+								transform: translate(0, 0);
+							}
+
+							&:hover,
+							&:active,
+							&:focus {
+								background-color: transparent;
+							}
+						}
+
+						&.twitter {
+							> a:before {
+								content: "\f099";
+							}
+						}
+
+						&.youtube {
+							> a:before {
+								content: "\f16a";
+							}
+						}
+
+						&.linkedin {
+							> a:before {
+								content: "\f0e1";
+								top: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&-links {
+			> .container {
+				> .row {
+					margin-top: 10px;
+					margin-bottom: 30px;
+
+					> div {
+						padding-top: 8px;
+						padding-bottom: 8px;
+					}
+				}
+			}
+
+			a {
+				color: #555555;
+
+				&:hover,
+				&:focus {
+					background-color: transparent;
+					text-decoration: underline;
+				}
+			}
+
+			.nav {
+				> li {
+					> a {
+						padding: 0;
+						margin-bottom: 7px;
+						font-size: 13px;
+						line-height: 15px;
+						display: inline-block;
+					}
+
+					&:last-child {
+						> a {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+
+			.header {
+				h2 {
+					font-size: 14px;
+					color: #333333;
+					font-weight: bold;
+					padding: 0;
+					margin: 0;
+					margin-bottom: 15px;
+				}
+			}
+
+			.body {
+				font-size: 13px;
+				line-height: 15px;
+				color: #555555;
+			}
+
+			.links {
+				&-tech-support {
+					> .body {
+						> div {
+							margin-bottom: 7px;
+
+							> div {
+								margin-bottom: 7px;
+
+								&:last-child {
+									margin-bottom: 0;
+								}
+							}
+
+							&:last-child {
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+				
+				@include breakpoint(screen max-width $screen-xs-max) {
+					+ .links {
+					margin-top: 15px;
+				}
+				}
+			}
+		}
+	}
+
+	.disclaimer--japan-domicile {
+		background-color: #b9b9b9;
+		font-size: 11px;
+		line-height: 14px;
+		color: #737373;
+		padding: 18px 0 27px;
+
+		&:lang(ja) {
+			font-size: 12px;
+			line-height: 20px;
+			padding: 29px 0 25px;
+			
+			@include breakpoint(screen max-width $screen-xs-max) {
+				padding-bottom: 26px;
+			}
+		}
+
+		a {
+			color: inherit;
+			text-decoration: underline;
+
+			&:hover,
+				/* &:focus,
+				&.focus, */
+			&:active,
+			&.active {
+				color: inherit;
+				background-color: transparent;
+				text-decoration: none;
+			}
+
+			&:focus,
+			&.focus {
+				text-decoration: underline;
+			}
+		}
+
+		p {
+			margin-bottom: 7px;
+			letter-spacing: -.006px;
+
+			&:lang(ja) {
+				letter-spacing: normal;
+			}
+		}
+
+		.fees-and-risk {
+			@include make-sm-column(6);
+
+			h4 {
+				margin: 0 0 1px;
+				font-size: 11px;
+				font-weight: bold;
+
+				&:lang(ja) {
+					margin: 0 0 3px;
+					font-size: 12px;
+					font-weight: bold;
+				}
+			}
+		}
+
+		.business-entity {
+			@include make-sm-column(6);
+			font-size: 12px;
+			padding-top: 13px;
+			
+			@include breakpoint(screen max-width $screen-xs-max) {
+				padding-top: 21px;
+			}
+
+			&:lang(ja) {
+				font-size: 14px;
+				padding-top: 15px;
+				
+				@include breakpoint(screen max-width $screen-xs-max) {
+					padding-top: 21px;
+				}
+			}
+
+			> p {
+				margin-bottom: 7px;
+
+				&:lang(ja) {
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+		*:last-child {
+			margin-bottom: 0 !important;
+		}
+	}
+	
+	> .legal {
+		background-color: #737373;
+		color: #b6b6b6;
+		font-size: 12px;
+		line-height: 18px;
+		
+		.copyright {
+			@include make-sm-column(4);
+			padding: 11px 15px;
+			
+			@include breakpoint(screen max-width $screen-xs-max) {
+				text-align: center;
+				padding-bottom: 1px;
+			}
+		}
+		
+		.menu {
+			@include make-sm-column(8);
+			padding-right: 5px;
+			
+			@include breakpoint(screen max-width $screen-xs-max) {
+				padding-right: 15px;
+			}
+
+			ul {
+				position: relative;
+				float: right;
+				padding: 6px 0 6px 15px;
+				
+				@include breakpoint(screen max-width $screen-xs-max) {
+					float: none;
+					text-align: center;
+					padding: 5px 0 11px;
+				}
+				
+				> li {
+					padding: 5px 10px;
+					
+					@include breakpoint(screen max-width $screen-xs-max) {
+						display: inline-block;
+						padding: 5px 10px;
+					}
+
+					> a {
+						padding: 0;
+						color: #b6b6b6;
+						line-height: 18px;
+						text-decoration: underline;
+						cursor: pointer;
+						
+						@include breakpoint(screen max-width $screen-xs-max) {
+							padding: 0;
+							white-space: nowrap;
+						}
+
+						&:hover,
+							/* &:focus,
+							&.focus, */
+						&:active,
+						&.active {
+							color: white;
+							background-color: transparent;
+							text-decoration: none;
+						}
+
+						&:focus,
+						&.focus {
+							background-color: transparent;
+							color: #b6b6b6;
+							text-decoration: underline;
+						}
+					}
+
+					&.active {
+						> a {
+							@extend .text-not-link;
+							color: white;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

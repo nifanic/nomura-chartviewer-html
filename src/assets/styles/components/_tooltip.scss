@@ -1,0 +1,12 @@
+/*
+
+Component: Bootstrap's overriden
+
+*/
+.tooltip {
+	white-space: nowrap;
+	max-width: none;
+
+	&-inner {
+	}
+}
