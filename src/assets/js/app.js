@@ -18,7 +18,9 @@ function stickyFooter() {
 		return false;
 	}
 	
-	!$('body').hasClass('browser-not-supported').css('margin-bottom', getHeight());
+	if (!$('body').hasClass('browser-not-supported')) {
+		$('body').css('margin-bottom', getHeight());
+	}
 }
 
 const Raphael = require('raphael');
