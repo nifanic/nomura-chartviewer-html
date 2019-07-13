@@ -33,12 +33,12 @@
 
 .icon {
 	&-ui {
-		background-image: image-url("sprite--nomura-ui--v2015.1.0.png");
+		background-image: url("../img/sprite--nomura-ui--v2015.1.0.png");
 		display: block;
 	}
 
 	&-aclass {
-		background-image: image-url("sprite--asset-class-icons--v2015.1.0.png");
+		background-image: url("../img/sprite--asset-class-icons--v2015.1.0.png");
 		display: block;
 
 		@include icon-color-size("economics", 178);
@@ -61,7 +61,7 @@
 		position: absolute;
 		left: 19px;
 		top: -1px;
-		background: image-url("sprite--flags--v2016.2.0.png") no-repeat;
+		background: url("../img/sprite--flags--v2016.2.0.png") no-repeat;
 
 		.photo & {
 			content: none;
@@ -78,7 +78,7 @@
 		right: 0;
 		@include box-shadow(-2px 3px 7px #9d9d9d);
 		z-index: 1000;
-		background-image: image-url("grp--ui-icons--sprite.png");
+		background-image: url("../img/grp--ui-icons--sprite.png");
 		background-position: -80px -165px;
 	}
 

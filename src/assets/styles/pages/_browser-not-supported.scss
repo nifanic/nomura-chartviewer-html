@@ -17,7 +17,7 @@ Browser Not Supportd
 
 			a {
 				display: block;
-				background-image: image-url("sprite--nomura-logo--v1.0.png");
+				background-image: url("../img/sprite--nomura-logo--v1.0.png");
 				background-repeat: no-repeat;
 				background-position: -67px -79px;
 				width: 96px;
@@ -70,7 +70,7 @@ Browser Not Supportd
 			}
 
 			.img {
-				background-image: image-url("browser-support.png");
+				background-image: url("../img/browser-support.png");
 				background-repeat: no-repeat;
 				display: block;
 				width: 64px;
