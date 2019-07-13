@@ -124,7 +124,7 @@ input {
 
 .fjs {
 	&-container {
-		@include flex(1 1 auto);
+		flex: 1 1 auto;
 		font-size: inherit;
 		min-height: 0;
 		border: none;
@@ -272,7 +272,7 @@ input {
 .modal {
 	text-align: center;
 	overflow: hidden;
-			
+	
 	&:before {
 		content: ' ';
 		display: inline-block !important;
@@ -311,10 +311,10 @@ input {
 		
 		.modal-content {
 			background-color: #f3f3f3;
-			@include display-flex(flex);
-			@include flex-direction(column);
+			display: flex;
+			flex-direction: column;
 			height: 100%;
-			@include box-shadow(0 0px 30px rgba(0, 0, 0, 0.5));
+			box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 			
 			@include breakpoint(screen max-width $screen-sm-max) {
 				border-radius: 0;
@@ -326,7 +326,7 @@ input {
 				border-bottom: 1px solid $color-gray-pale;
 				padding: 15px 15px 10px;
 				border-bottom: none;
-				@include flex(0 0 auto);
+				flex: 0 0 auto;
 				width: 100%;
 				
 				&.mouse-down {
@@ -432,9 +432,9 @@ input {
 			.modal-body {
 				padding: 0;
 				background-color: white;
-				@include display-flex(flex);
-				@include flex(1 1 auto);
-				@include flex-direction(column);
+				display: flex;
+				flex: 1 1 auto;
+				flex-direction: column;
 				overflow-y: hidden;
 				border-top: 1px solid $color-gray-pale;
 				border-bottom: 1px solid $color-gray-pale;
@@ -448,6 +448,7 @@ input {
 						.jstree-wholerow-ul {
 							//width: 100%;
 						}
+						
 						.jstree-ocl {
 							font-family: "FontAwesome";
 							font-size: 12px;
@@ -579,7 +580,7 @@ input {
 						.slick-row {
 							&:hover {
 								background: #DEDEDE;
-								@include transition(color 0.15s ease, background 0.15s ease, border 0.15s ease);
+								transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
 							}
 							
 							.slick-cell {
@@ -615,7 +616,7 @@ input {
 			
 			.modal-footer {
 				display: table;
-				@include flex(0 0 auto);
+				flex: 0 0 auto;
 				width: 100%;
 				border-top: none;
 				
@@ -649,8 +650,8 @@ input {
 			> #tree {
 				overflow: auto;
 				width: 100%;
-				@include display-flex(flex);
-				@include flex(1 1 auto);
+				display: flex;
+				flex: 1 1 auto;
 				
 				.pane-tree {
 					overflow-y: scroll;
@@ -739,6 +740,7 @@ input {
 									-webkit-box-shadow: none;
 									-moz-box-shadow: none;
 									box-shadow: none;
+									
 									&:after {
 										content: "\f105";
 									}
@@ -762,7 +764,8 @@ input {
 					width: 100%;
 					
 					code {
-						&.hljs {}
+						&.hljs {
+						}
 					}
 					
 					> dt {
@@ -1046,7 +1049,7 @@ main.global {
 				&-fluid {
 					&:before {
 						position: absolute;
-						left:0;
+						left: 0;
 						right: 0;
 						
 					}
@@ -1198,7 +1201,7 @@ main.global {
 				}
 				
 				section.properties {
-					> header  {
+					> header {
 						height: 30px;
 						display: table-cell;
 						vertical-align: middle;
@@ -1312,7 +1315,8 @@ main.global {
 					}
 					
 					.series {
-						&-name {}
+						&-name {
+						}
 						
 						&-color {
 							background-color: red;
@@ -1330,7 +1334,7 @@ main.global {
 					display: table-cell;
 					vertical-align: middle;
 					
-					>  label {
+					> label {
 						font-size: 12px;
 						min-height: 0;
 						padding-left: inherit;
@@ -1378,7 +1382,7 @@ main.global {
 								> .plot-type {
 									display: inline-block;
 									
-									> label	{
+									> label {
 										display: inline-block;
 										float: left;
 										padding-right: 4px;
@@ -1491,7 +1495,7 @@ main.global {
 												
 												button {
 													line-height: 20px;
-
+													
 													&.active[data-toggle="button"] {
 														width: 30px;
 														padding: 0;

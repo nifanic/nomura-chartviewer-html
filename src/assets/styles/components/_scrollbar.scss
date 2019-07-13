@@ -167,18 +167,18 @@ Component: SCROLLBARS (for Filters)
 				.scroll {
 					&-element {
 						&_outer {
-							@include border-radius(8px);
+							border-radius:8px;
 							overflow: hidden;
 						}
 
 						&_track {
-							@include border-radius(8px);
+							 border-radius:8px;
 							background-color: rgba(0, 103, 122, .1);
 						}
 					}
 
 					&-bar {
-						@include border-radius(8px);
+						 border-radius:8px;
 						background-color: rgba(0, 103, 122, .3);
 
 						&:hover {

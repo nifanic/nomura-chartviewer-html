@@ -18,7 +18,7 @@
 				overflow: hidden;
 				border-left: 0;
 			}
-
+			
 			&-columns {
 				position: relative;
 				white-space: nowrap;
@@ -27,7 +27,7 @@
 				margin: 10px 0 2px;
 			}
 		}
-
+		
 		&-column {
 			@include ellipsis();
 			padding: 0;
@@ -36,7 +36,7 @@
 			vertical-align: middle;
 			z-index: 1;
 			cursor: default;
-
+			
 			&.ui-state-default {
 				@include ellipsis();
 				font-size: 12px;
@@ -48,24 +48,24 @@
 				float: left;
 				margin: 0;
 				padding: 0 15px;
-
+				
 				&:hover {
 					> .slick-header-button {
 						width: 15px;
 					}
 				}
-
+				
 				> .slick-sort-indicator {
 					display: none;
 				}
-
+				
 				> .slick-column-name {
 					text-overflow: ellipsis;
 					overflow: hidden;
 					display: block;
 					white-space: nowrap;
 				}
-
+				
 				> .slick-resizable-handle {
 					position: absolute;
 					font-size: 0.1px;
@@ -78,14 +78,14 @@
 					border-right: 1px dotted #9d9d9d;
 				}
 			}
-
+			
 			&-sorted {
 				font-style: italic;
-
+				
 				&.ui-state-default {
 					font-style: normal !important;
 					color: rgb(202, 36, 32) !important;
-
+					
 					> .slick-sort-indicator {
 						position: relative;
 						top: 1px;
@@ -96,7 +96,7 @@
 						font-weight: normal;
 						float: right;
 						min-height: 16px;
-
+						
 						&:after {
 							content: "";
 							display: block;
@@ -107,7 +107,7 @@
 							border-left: 4px solid transparent;
 							border-right: 4px solid transparent;
 						}
-
+						
 						&.slick-sort-indicator {
 							&-asc {
 								&:after {
@@ -115,7 +115,7 @@
 									top: 3px;
 								}
 							}
-
+							
 							&-desc {
 								&:after {
 									border-top: 8px solid rgb(202, 36, 32);
@@ -124,14 +124,14 @@
 							}
 						}
 					}
-
+					
 					> .slick-column-name {
 						margin-right: 12px;
 					}
 				}
 			}
 		}
-
+		
 		&-button {
 			display: inline-block;
 			float: right;
@@ -147,55 +147,55 @@
 			background-repeat: no-repeat;
 			background-position: center center;
 			cursor: pointer;
-
+			
 			&-hidden {
 				width: 0;
 				transition: 0.2s width;
 			}
 		}
 	}
-
+	
 	&-headerrow {
 		&-columns {
 			margin: 0;
 		}
-
+		
 		&-column {
 			text-overflow: clip;
 			position: absolute;
-
+			
 			input {
 				width: 100%;
 			}
-
+			
 			&.ui-state-default {
 				padding: 5px;
 			}
-
+			
 			select option:first-child {
 				color: #808080;
 			}
 		}
 	}
-
+	
 	&-viewport {
 		border-top: 1px solid rgba($color-gray-pale, 1);
 		border-bottom: 1px solid rgba($color-gray-pale, 1);
 	}
-
+	
 	&-row {
 		&.slick-group {
 			background-color: #dcb940;
 			background: linear-gradient(to right, rgba(154, 149, 0, .25), rgba(255, 255, 255, 0)) !important;
 			color: #9a9500;
-
+			
 			> .secondary {
 				background: none;
 				color: #9a9500;
 				font-weight: bold;
 				font-size: 14px;
 			}
-
+			
 			.slick-group-title {
 				> .badge {
 					background-color: rgba(255, 255, 255, .5);
@@ -207,51 +207,52 @@
 				}
 			}
 		}
-
+		
 		&.even {
 			background-color: rgba($color-gray-pale, .15);
 		}
-
+		
 		&.active,
 		&:hover {
 			a {
 				color: white;
 				transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
-
+				
 				> .stock-ticker {
 					color: rgba(255, 255, 255, 0.65);
 					transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
 				}
 			}
-
+			
 			.rating {
 				color: rgba(255, 255, 255, .65);
-
+				
 				&:before {
 					color: rgba(255, 255, 255, 1);
 					border-color: rgba(255, 255, 255, 1);
 				}
 			}
 		}
-
+		
 		&.active {
 			background-color: $color-teal-light !important;
 			//pointer-events: none; // This doesn't let us to click on column action buttons
 			cursor: default;
-
+			
 			> .primary {
 				color: white;
 			}
-
+			
 			> .secondary {
 				color: rgba(255, 255, 255, 0.65);
 			}
-
+			
 			.btn {
 				&-default {
 					color: white;
 					border-color: rgba(255, 255, 255, 0.3);
 					background-color: transparent;
+					
 					&:hover,
 					&:active,
 					&.active {
@@ -260,23 +261,23 @@
 				}
 			}
 		}
-
+		
 		&:hover {
 			background-color: $color-gray-pale;
 			@include transition(color 0.15s ease, background 0.15s ease, border 0.15s ease);
-
+			
 			> .primary {
 				color: white;
 			}
-
+			
 			> .secondary {
 				color: rgba(white, 0.65);
 			}
-
+			
 			.btn-default {
 				color: white;
 				border-color: rgba(255, 255, 255, 0.3);
-
+				
 				&:hover,
 				&:active,
 				&.active {
@@ -285,7 +286,7 @@
 				}
 			}
 		}
-
+		
 		.rating {
 			&:before {
 				content: "";
@@ -299,56 +300,56 @@
 				line-height: normal;
 				margin-right: 6px;
 				-webkit-font-smoothing: antialiased;
-				@include box-sizing(border-box);
+				box-sizing: border-box;
 			}
-
+			
 			&-buy {
 				color: rgba(90, 116, 0, .6);
-
+				
 				&:before {
 					content: "1";
 					color: rgb(90, 116, 0);
 					border-color: rgb(90, 116, 0);
 				}
 			}
-
+			
 			&-neutral {
 				color: rgba(204, 141, 25, .6);
-
+				
 				&:before {
 					content: "2";
 					color: rgb(204, 141, 25);
 					border-color: rgb(204, 141, 25);
 				}
 			}
-
+			
 			&-reduce {
 				color: rgba(143, 51, 54, .6);
-
+				
 				&:before {
 					content: "3";
 					color: rgb(143, 51, 54);
 					border-color: rgb(143, 51, 54);
 				}
 			}
-
+			
 			&-suspended:before {
 				content: none;
 			}
 		}
-
+		
 		&.ui-widget-content,
 		&.ui-state-active {
 			position: absolute;
 			border: 0;
 			width: 100%;
 		}
-
+		
 		.btn + .btn {
 			margin-left: 4px;
 		}
 	}
-
+	
 	&-cell {
 		@include ellipsis();
 		padding: 0;
@@ -357,11 +358,11 @@
 		vertical-align: middle;
 		z-index: 1;
 		cursor: default;
-
+		
 		&:focus {
 			outline: none;
 		}
-
+		
 		&.primary {
 			/*width: 42.99363057324841%;*/
 			padding: 7px 0 7px 10px;
@@ -369,7 +370,7 @@
 			line-height: 16px;
 			color: black;
 		}
-
+		
 		&.secondary {
 			/*width: 17.19745222929936%;*/
 			padding: 8px 0 8px 0;
@@ -377,36 +378,36 @@
 			line-height: 14px;
 		}
 	}
-
+	
 	&-pager {
 		width: 100%;
 		height: 30px;
 		vertical-align: middle;
 		border-bottom: 1px solid rgba(185, 185, 185, 1);
 		box-sizing: content-box;
-
+		
 		&-status {
 			display: inline-block;
 			padding: 7px;
 			font-size: 12px;
 		}
-
+		
 		&-nav {
 			display: inline-block;
 			line-height: 0;
 			float: left;
-
+			
 			.ui-icon {
 				height: 30px;
 				width: 30px;
 				display: block;
 				position: relative;
-
+				
 				&:hover {
 					background-color: #649cb3;
 					color: white;
 				}
-
+				
 				&:before {
 					font: normal normal normal 16px/1 FontAwesome;
 					text-rendering: auto;
@@ -421,58 +422,58 @@
 					color: black;
 					cursor: hand;
 				}
-
+				
 				&.ui-state {
 					&-default {
 						margin: 0;
 					}
-
+					
 					&-disabled {
 						background-color: transparent !important;
 						cursor: not-allowed;
-
+						
 						&:before {
 							color: #b9b9b9;
 						}
 					}
 				}
-
+				
 				&-container {
 					display: inline-block;
-
+					
 					&:hover > .ui-icon {
 						color: white !important;
 					}
 				}
-
+				
 				&-seek {
 					&-first:before {
 						content: '\f100';
 					}
-
+					
 					&-prev:before {
 						content: '\f104';
 					}
-
+					
 					&-next:before {
 						content: '\f105';
 					}
-
+					
 					&-end:before {
 						content: '\f101';
 					}
 				}
 			}
 		}
-
+		
 		&-settings {
 			display: block;
 			float: right;
-
+			
 			* {
 				vertical-align: middle;
 			}
-
+			
 			a {
 				text-decoration: underline;
 				cursor: pointer;

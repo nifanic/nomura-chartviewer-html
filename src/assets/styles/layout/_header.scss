@@ -6,13 +6,13 @@
 header.global {
 	@extend .text-not-selectable;
 	position: relative;
-
+	
 	&:after {
 		content: '';
 		display: table;
 		clear: both;
 	}
-
+	
 	.navbar {
 		border-radius: 0;
 		min-height: 45px;
@@ -33,7 +33,7 @@ header.global {
 				display: block;
 				float: left;
 				position: relative;
-
+				
 				&:before {
 					content: "";
 					display: block;
@@ -48,11 +48,11 @@ header.global {
 				}
 			}
 		}
-
+		
 		&-header {
 			position: relative;
 			width: 100%;
-
+			
 			@include breakpoint(screen max-width $screen-xs-max) {
 				width: auto;
 			}
@@ -80,7 +80,7 @@ header.global {
 					stroke: none;
 					top: 0 !important;
 				}
-
+				
 				> #base {
 					fill: #C92417;
 				}
@@ -94,7 +94,7 @@ header.global {
 				}
 			}
 		}
-
+		
 		&-nav {
 			&-left {
 				z-index: 1;
@@ -105,14 +105,14 @@ header.global {
 					margin: 0;
 				}
 			}
-
+			
 			> li {
 				&.dropdown {
 					> a {
 						+ div {
 							padding: 9px 15px 15px;
 						}
-
+						
 						&:after {
 							font-family: "FontAwesome";
 							content: "\f107";
@@ -126,26 +126,26 @@ header.global {
 						}
 					}
 				}
-
+				
 				.dropdown-menu {
 					border: 0;
 					border-radius: 0;
 					min-width: 100%;
-
+					
 					> li > a {
 						padding: 3px 15px;
 					}
-
+					
 					.form-group {
 						position: relative;
 						margin: 9px 0 0;
-
+						
 						&:after {
 							content: "";
 							clear: both;
 							display: table;
 						}
-
+						
 						> label,
 						> h3 {
 							font-size: 12px;
@@ -154,12 +154,12 @@ header.global {
 							margin: 0 0 3px;
 							font-weight: bold;
 						}
-
+						
 						.checkbox {
 							margin: 0 0 8px;
 							min-height: 0;
 							line-height: initial;
-
+							
 							> label {
 								color: black;
 								font-size: 12px;
@@ -167,30 +167,30 @@ header.global {
 								min-height: 0;
 								padding-left: 19px;
 								display: inline-block;
-
+								
 								> input[type="checkbox"] {
 									margin: 0;
 									left: 0;
 								}
 							}
 						}
-
+						
 						.password {
 							font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
 							font-size: 12px;
 						}
-
+						
 						input {
 							&[type="text"]::-ms-clear {
 								display: none;
 								width: 0;
 								height: 0;
 							}
-
+							
 							&[type="password"]::-ms-reveal {
 								display: none;
 							}
-
+							
 							&[type="search"] {
 								&::-webkit-search-decoration,
 								&::-webkit-search-cancel-button,
@@ -199,12 +199,12 @@ header.global {
 									display: none;
 								}
 							}
-
+							
 							@include breakpoint(screen max-width $screen-xs-max) {
 								width: 100%;
 							}
 						}
-
+						
 						button.help {
 							position: absolute;
 							top: 4px;
@@ -216,20 +216,20 @@ header.global {
 							padding: 0;
 						}
 					}
-
+					
 					footer {
 						text-align: right;
 						padding-top: 15px;
 						position: relative;
 						border-top: 1px solid mix($color-gray-pale, white, 50%);
 						margin-top: 30px;
-
+						
 						> button + button {
 							margin-left: 10px;
 						}
 					}
 				}
-
+				
 				> a {
 					&,
 					&:visited,
@@ -240,11 +240,11 @@ header.global {
 						border: none;
 						background-color: transparent;
 					}
-
+					
 					&:hover {
 						background-color: mix($color-red, black, 80%);
 					}
-
+					
 					&:before {
 						content: "";
 						float: left;
@@ -255,11 +255,11 @@ header.global {
 						display: inline-block;
 						margin: 2px 0 0;
 					}
-
+					
 					> .caption {
 						display: inline-block;
 						padding-left: 4px;
-
+						
 						@include breakpoint(screen max-width $screen-sm-max) {
 							display: none;
 						}
@@ -270,19 +270,19 @@ header.global {
 					> a:before {
 						background-position: -10px -71px;
 					}
-
+					
 					&.open {
 						> a:before {
 							background-position: -10px -50px;
 						}
 					}
-
+					
 					> .dropdown-menu {
 						@include breakpoint(screen max-width 1083px) {
 							left: auto;
 							right: 0;
 						}
-
+						
 						.form-group {
 							input {
 								width: 250px;
@@ -297,18 +297,18 @@ header.global {
 						}
 					}
 				}
-
+				
 				&.user-menu {
 					&.open {
 						> a:before {
 							background-position: -73px -50px;
 						}
 					}
-
+					
 					> a:before {
 						background-position: -73px -71px;
 					}
-
+					
 					> .dropdown-menu {
 						padding: 15px;
 						
@@ -316,23 +316,23 @@ header.global {
 							left: auto;
 							right: 0;
 						}
-
+						
 						.nav-tabs {
 							white-space: nowrap;
 							//margin-bottom: 9px;
-
+							
 							> li {
 								margin-bottom: -1px;
 								display: inline-block;
 								margin-right: -4px;
 								float: none;
-
+								
 								&:last-child {
 									margin-right: 0;
 								}
 							}
 						}
-
+						
 						.tab-content {
 							> .tab-pane {
 								@include make-row();
@@ -345,25 +345,25 @@ header.global {
 						}
 					}
 				}
-
+				
 				&.lang {
 					&-en {
 						> a:before {
 							background-position: -94px -71px;
 						}
-
+						
 						&.open {
 							> a:before {
 								background-position: -94px -50px;
 							}
 						}
 					}
-
+					
 					&-ja {
 						> a:before {
 							background-position: -115px -71px;
 						}
-
+						
 						&.open {
 							> a:before {
 								background-position: -115px -50px;
@@ -376,13 +376,13 @@ header.global {
 					> a:before {
 						background-position: -157px -71px;
 					}
-
+					
 					&.open {
 						> a:before {
 							background-position: -157px -50px;
 						}
 					}
-
+					
 					> .dropdown-menu {
 						@include breakpoint(screen max-width 1070px) {
 							left: auto;
@@ -390,24 +390,24 @@ header.global {
 						}
 					}
 				}
-
+				
 				&.help {
 					> a:before {
 						background-position: -31px -71px;
 					}
-
+					
 					&.open {
 						> a:before {
 							background-position: -31px -50px;
 						}
 					}
-
+					
 					> .dropdown-menu {
 						left: auto;
 						right: 0;
 					}
 				}
-
+				
 				&.open {
 					> a {
 						&,
@@ -417,7 +417,7 @@ header.global {
 							color: $color-red;
 						}
 					}
-
+					
 					.dropdown-menu {
 						@include breakpoint(screen max-width $screen-xs-max) {
 							background-color: white;
@@ -426,7 +426,7 @@ header.global {
 				}
 			}
 		}
-
+		
 		&-toggle {
 			padding: 12px 15px 13px;
 			border: none;
@@ -436,7 +436,7 @@ header.global {
 			@include breakpoint(screen max-width $screen-xs-max) {
 				background-color: black;
 			}
-
+			
 			.hamburger-menu {
 				position: relative;
 				display: inline-block;
@@ -444,60 +444,60 @@ header.global {
 				height: 16px;
 				vertical-align: middle;
 				fill: none;
-
+				
 				.line {
 					position: absolute;
 					left: 0;
 					display: block;
 					width: 100%;
 					height: 2px;
-					@include transition(all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1.000));
-					@include transition-timing-function(cubic-bezier(0.645, 0.045, 0.355, 1.000));
+					transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+					transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
 					background-color: white;
 				}
-
+				
 				.line-top {
 					top: 0;
-					@include transform(translateY(7px) translateX(0) rotate(45deg));
+					transform: translateY(7px) translateX(0) rotate(45deg);
 				}
-
+				
 				.line-mid {
 					top: 50%;
 					margin-top: -1px;
 					opacity: 0;
 				}
-
+				
 				.line-btm {
 					bottom: 0;
-					@include transform(translateY(-7px) translateX(0) rotate(-45deg));
+					transform: translateY(-7px) translateX(0) rotate(-45deg);
 				}
 			}
-
+			
 			&.collapsed {
 				@include breakpoint(screen max-width $screen-xs-max) {
 					background-color: rgba(0, 0, 0, .001);
 				}
-
+				
 				.hamburger-menu {
 					.line-top {
-						@include transform(none);
+						transform: none;
 					}
-
+					
 					.line-mid {
 						opacity: 1;
 					}
-
+					
 					.line-btm {
-						@include transform(none);
+						transform: none;
 					}
 				}
 			}
 		}
-
+		
 		&-collapse {
 			position: relative;
 			border: none;
-			@include box-shadow(none);
+			box-shadow: none;
 			
 			@include breakpoint(screen max-width $screen-xs-max) {
 				width: 100%;
@@ -507,7 +507,7 @@ header.global {
 				background-color: black;
 				float: right;
 			}
-
+			
 			> .input-group {
 				padding-left: 15px;
 				padding-right: 15px;
@@ -515,12 +515,12 @@ header.global {
 				@include breakpoint(screen max-width $screen-xs-max) {
 					padding: 2px 0 10px;
 				}
-
+				
 				button {
 					background-color: white;
 				}
 			}
-
+			
 			> .nav {
 				margin-right: -15px;
 				float: right;
@@ -529,7 +529,7 @@ header.global {
 					float: none;
 				}
 			}
-
+			
 			> .search-bar {
 				.input-group {
 					input:focus {
@@ -548,11 +548,11 @@ header.global {
 		//background-color: rgba($color-gray, 0.6);
 		z-index: 901;
 		width: 100%;
-
+		
 		.ie8 & {
 			background-color: lighten($color-gray, 20%);
 		}
-
+		
 		.divider {
 			margin: 15px 0;
 			background-color: transparent;
@@ -566,7 +566,7 @@ header.global {
 		padding: 0;
 		position: relative;
 		margin: 0 -15px;
-
+		
 		&:after {
 			content: '';
 			display: table;
@@ -587,23 +587,23 @@ header.global {
 				padding-left: 0;
 				padding-right: 0;
 			}
-
+			
 			&.active {
-				@include background(linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .5)));
+				background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .5));
 			}
-
+			
 			> a {
 				height: 80px;
 			}
 		}
-
+		
 		> .appname {
 			text-indent: -9999px;
 			
 			@include breakpoint(screen max-width $screen-xs-max) {
 				width: 100%;
 			}
-
+			
 			@include breakpoint(screen max-width $screen-sm-max) {
 				float: none;
 			}
@@ -613,14 +613,14 @@ header.global {
 				background-position: 50% 40px;
 				display: block;
 				
-				@include user-select(none);
+				user-select: none;
 				user-drag: none;
 				
 				@include breakpoint(screen max-width $screen-xs-max) {
 					width: auto !important;
 				}
 			}
-
+			
 			/*&--grp-plus {
 				> a {
 					background-image: url("appname--grp-plus.png");
@@ -635,7 +635,7 @@ header.global {
 			@include breakpoint(screen max-width $screen-xs-max) {
 				height: auto;
 			}
-
+			
 			& {
 				.dropdown {
 					&-toggle {
@@ -660,11 +660,12 @@ header.global {
 						
 						&:hover {
 							background-color: rgba(255, 255, 255, .25);
+							
 							.ie8 & {
 								background-color: $color-gray-pale;
 								zoom: 1;
 							}
-
+							
 							cursor: pointer;
 							text-decoration: none;
 						}
@@ -699,13 +700,13 @@ header.global {
 							@include breakpoint(screen max-width $screen-xs-max) {
 								display: none;
 							}
-
+							
 							.ie8 & {
 								vertical-align: top;
 							}
 						}
 					}
-
+					
 					&-menu {
 						left: 0;
 						position: absolute;
@@ -718,7 +719,7 @@ header.global {
 					}
 				}
 			}
-
+			
 			&.open {
 				.dropdown {
 					&-toggle {
@@ -729,7 +730,7 @@ header.global {
 							background-color: white;
 						}
 					}
-
+					
 					&-menu {
 						z-index: 1350;
 						padding: 15px 0;
@@ -756,11 +757,11 @@ header.global {
 										background-color: $brand-primary;
 										color: white;
 									}
-
+									
 									&.header {
 										font-weight: bold;
 									}
-
+									
 									&.text-not-link {
 										color: $color-gray-light;
 										background-color: transparent;
@@ -776,7 +777,7 @@ header.global {
 								padding: 0;
 							}
 						}
-
+						
 						&-primary {
 							font-size: 14px;
 							line-height: 20px;
@@ -799,7 +800,7 @@ header.global {
 									a {
 										padding: 8px 15px;
 										font-weight: bold;
-
+										
 										&:only-child {
 											font-weight: normal;
 										}
@@ -819,7 +820,7 @@ header.global {
 									}
 								}
 							}
-
+							
 							header ul li a {
 								font-size: 14px;
 								font-weight: bold !important;
@@ -829,7 +830,7 @@ header.global {
 					}
 				}
 			}
-
+			
 			&.aclass {
 				&-economics {
 					& {
@@ -843,7 +844,7 @@ header.global {
 							}
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-economics-red-md;
@@ -863,91 +864,91 @@ header.global {
 							@extend .icon-aclass, .icon-aclass-equity-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-equity-red-md;
 						}
 					}
 				}
-
+				
 				&-credit {
 					& {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-credit-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-credit-red-md;
 						}
 					}
 				}
-
+				
 				&-markets {
 					& {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-markets-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-markets-red-md;
 						}
 					}
 				}
-
+				
 				&-rates {
 					& {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-rates-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-rates-red-md;
 						}
 					}
 				}
-
+				
 				&-fx {
 					& {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-fx-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-fx-red-md;
 						}
 					}
 				}
-
+				
 				&-global_strategy {
 					& {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-global_strategy-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-global_strategy-red-md;
 						}
 					}
 				}
-
+				
 				&-quants {
 					& {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-quants-white-md;
 						}
 					}
-
+					
 					&.open {
 						.dropdown-toggle:before {
 							@extend .icon-aclass, .icon-aclass-quants-red-md;

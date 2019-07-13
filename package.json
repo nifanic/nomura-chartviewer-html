@@ -6,7 +6,6 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
-    "compass-mixins": "^0.12.7",
     "concurrently": "^4.1.0",
     "css-loader": "^2.0.0",
     "file-loader": "^2.0.0",

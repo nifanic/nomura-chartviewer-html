@@ -7,7 +7,7 @@ MD (Desktop)
 @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 	header.global {
 		.l-header.sticky {
-			@include translate3d(0, 0, 0);
+			translate3d: 0, 0, 0;
 		}
 	}
 }

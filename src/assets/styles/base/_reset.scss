@@ -22,7 +22,7 @@ body {
 a {
 	color: black;
 	outline: 0 !important;
-	@include transition(color 0.15s ease, background 0.15s ease, border 0.15s ease);
+	transition:color 0.15s ease, background 0.15s ease, border 0.15s ease;
 
 	&:hover,
 	&:focus {
@@ -33,7 +33,7 @@ a {
 
 .text {
 	&-not-selectable {
-		@include user-select(none);
+		 user-select:none;
 		cursor: default;
 	}
 
