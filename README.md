@@ -1,20 +1,20 @@
 # Nomura® ChartViewer HTML Prototype
 
 ## Components
-0. HTML5
-0. CSS3/SASS
-0. jQuery 2.2.4
-0. Bootstrap 3.3.7
-0. HighCharts
-0. SlickGrid
-0. JS-Tree
-0. Split.js
-0. FontAwesome 4
-0. i18next
+
+1. HTML5
+1. CSS3/[SASS](https://sass-lang.com/)
+1. [jQuery 2.2.4](https://jquery.com/)
+1. [Bootstrap 3.4](https://getbootstrap.com/docs/3.4/)
+1. [HighCharts](https://www.highcharts.com/)
+1. [SlickGrid](https://github.com/mleibman/SlickGrid)
+1. [jsTree](https://www.jstree.com/)
+1. [Split.js](https://split.js.org/)
+1. [FontAwesome 4](https://fontawesome.com/v4.7.0/)
+1. [i18next](https://www.i18next.com/)
 
 ## Dev Tools
-0. NodeMon
-0. WebPack
-0. WebPack Dev Server
-0. ExpressJS
-0. Compass Mixins
+
+1. [Nodemon](https://nodemon.io/)
+1. [Webpack](https://webpack.js.org/) with [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
+1. [ExpressJS](https://expressjs.com/)

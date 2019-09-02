@@ -1,0 +1,207 @@
+{
+	"folders": [
+		{
+			"text": "My Charts",
+			"type": "folder-my_charts",
+			"dateModified": "",
+			"children": [
+				{
+					"text": "Fx spot rate - JPY - GBP",
+					"type": "chart",
+					"dateModified": "2016-09-02T18:35:08Z"
+				}
+			]
+		},
+		{
+			"text": "Employee",
+			"type": "folder-employee",
+			"dateModified": "",
+			"children": [
+				{
+					"text": "European ABS",
+					"type": "folder",
+					"dateModified": "2012-04-27T11:22:18Z",
+					"children": [
+						{
+							"text": "HPI Spain-Second Hand Dwelling",
+							"type": "chart",
+							"dateModified": "2012-05-03T15:53:34Z"
+						},
+						{
+							"text": "Irish Net lending and Rates Trends",
+							"type": "chart",
+							"dateModified": "2012-05-09T14:54:26Z"
+						},
+						{
+							"text": "Italy-MortgageNetLending and Rate Trends",
+							"type": "chart",
+							"dateModified": "2012-05-08T15:09:55Z"
+						},
+						{
+							"text": "Spanish Gross Mortgage Lending(3M Averag",
+							"type": "chart",
+							"dateModified": "2012-05-03T14:04:54Z"
+						}
+					]
+				},
+				{
+					"text": "Fixed Income Portal",
+					"type": "folder",
+					"dateModified": "2011-05-20T16:54:32Z",
+					"children": [
+						{
+							"text": "FIP 365d usage",
+							"type": "chart",
+							"dateModified": "2016-05-17T13:44:56Z"
+						},
+						{
+							"text": "FIP 60d iphone",
+							"type": "chart",
+							"dateModified": "2011-06-16T11:45:53Z"
+						},
+						{
+							"text": "FIP 90d usage",
+							"type": "chart",
+							"dateModified": "2016-05-17T13:39:09Z"
+						},
+						{
+							"text": "FIP 90d YOY",
+							"type": "chart",
+							"dateModified": "2012-02-13T16:08:26Z"
+						}
+					]
+				},
+				{
+					"text": "NY Rates Sales",
+					"type": "folder",
+					"dateModified": "2012-01-27T17:36:27Z",
+					"children": [
+						{
+							"text": "Chicago",
+							"type": "folder",
+							"children": [
+								{
+									"text": "1/19s",
+									"type": "chart",
+									"dateModified": "2012-11-06T17:39:08Z"
+								},
+								{
+									"text": "10s15s30s 75/25",
+									"type": "chart",
+									"dateModified": "2012-09-17T22:23:38Z"
+								}
+							]
+						},
+						{
+							"text": ".25Dec14-1Aug16-.875Dec16",
+							"type": "chart",
+							"dateModified": "2012-03-09T15:12:07Z"
+						},
+						{
+							"text": ".75 6/17 - 1.5 6/16 ASW Spread",
+							"type": "chart",
+							"dateModified": "2012-08-13T18:18:53Z"
+						}
+					]
+				},
+				{
+					"text": "Rates Sales",
+					"type": "folder",
+					"dateModified": "2010-02-19T12:05:09Z",
+					"children": [
+						{
+							"text": "BeNeLux",
+							"type": "folder",
+							"children": [
+								{
+									"text": "EUR CDS Basis",
+									"type": "chart",
+									"dateModified": "2013-06-05T15:25:30Z"
+								}
+							]
+						},
+						{
+							"text": "UK Desk",
+							"type": "folder",
+							"children": [
+								{
+									"text": "12March updates",
+									"type": "folder",
+									"dateModified": "2011-02-04T10:40:09Z",
+									"children": [
+										{
+											"text": "1y regr: Y = GBP 5s10s gov yield spread",
+											"type": "chart",
+											"dateModified": "2011-02-04T10:40:09Z"
+										},
+										{
+											"text": "1yr rgr: Y = GBP 5s10s gov yield spread",
+											"type": "chart",
+											"dateModified": "2011-02-04T10:40:09Z"
+										},
+										{
+											"text": "6m regr: Y = GBP 2s5s10s gov yield fly X",
+											"type": "chart",
+											"dateModified": "2011-02-04T10:40:09Z"
+										}
+									]
+								},
+								{
+									"text": "final version",
+									"type": "folder",
+									"dateModified": "2011-02-04T10:40:04Z",
+									"children": [
+										{
+											"text": "18m regr: Y = GBP 5y yield X = DEM 5y yi",
+											"type": "chart",
+											"dateModified": "2011-02-04T10:40:09Z"
+										},
+										{
+											"text": "18m rgr: Y = GBP 10s40s gov bond spreads",
+											"type": "chart",
+											"dateModified": "2011-02-04T10:40:09Z"
+										}
+									]
+								},
+								{
+									"text": "18m regr: Y = GBP 5y yield X = DEM 5y yi",
+									"type": "chart",
+									"dateModified": "2011-02-04T10:39:32Z"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"text": "Public",
+			"type": "folder-public",
+			"dateModified": "",
+			"children": [
+				{
+					"text": "ChartViewerUserGuide",
+					"type": "folder",
+					"dateModified": "2010-04-23T15:27:42Z",
+					"children": [
+						{
+							"text": "userguide.example",
+							"type": "chart",
+							"dateModified": "2012-01-06T10:05:59Z"
+						},
+						{
+							"text": "userguide.functions",
+							"type": "chart",
+							"dateModified": "2012-01-06T10:06:17Z"
+						},
+						{
+							"text": "userguide.regression",
+							"type": "chart",
+							"dateModified": "2012-05-14T10:26:52Z"
+						}
+					]
+				}
+			]
+		}
+	]
+}

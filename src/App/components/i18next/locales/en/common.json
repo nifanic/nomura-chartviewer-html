@@ -1,0 +1,65 @@
+{
+	"home": "Home",
+	"appName": "ChartViewer",
+	"button": {
+		"add": "Add",
+		"logIn": "Log In",
+		"logOut": "Log Out",
+		"cancel": "Cancel",
+		"save": "Save"
+	},
+	"youAreAboutToLogOut": "You are about to log out.",
+	"recentlyOpenedPlots": "Recently opened plots",
+	"userMenu": {
+		"tabs": {
+			"settings": {
+				"tabName": "Settings",
+				"dataFormat": "Date Format"
+			},
+			"changePassword": {
+				"tabName": "Change Password",
+				"currentPassword": "Current Password",
+				"newPassword": "New Password"
+			},
+			"userProfile": {
+				"tabName": "User Profile",
+				"firstName": "First Name",
+				"lastName": "Last Name",
+				"email": "Email"
+			}
+		}
+	},
+	"helpMenu": {
+		"about": "About ChartViewer",
+		"intUserGuide": "Internal User Guide",
+		"reportIssue": "Report an Issue..."
+	},
+	"tabs": {
+		"expressions": {
+			"tabName": "Expressions",
+			"table": {
+				"tools": {
+					"actions": {
+						"label": "Actions"
+					}
+				},
+				"cols": {
+					"key": "Key",
+					"var": "Var",
+					"expression": "Expression",
+					"legend": "Name",
+					"axis": "Axis",
+					"action": {
+						"label": "Action"
+					}
+				}
+			}
+		},
+		"stats": {
+			"tabName": "Stats"
+		},
+		"format": {
+			"tabName": "Format"
+		}
+	}
+}

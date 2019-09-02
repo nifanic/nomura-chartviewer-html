@@ -1,0 +1,34 @@
+/*
+
+MARK-UP
+To be deleted from production code
+
+*/
+.pink {
+	&-10 {
+		background-color: rgba(255, 0, 255, 0.1) !important;
+	}
+
+	&-15 {
+		background-color: rgba(255, 0, 255, 0.15) !important;
+	}
+
+	&-20 {
+		background-color: rgba(255, 0, 255, 0.2) !important;
+	}
+}
+
+.placeholder {
+	color: rgb(255, 0, 255);
+	border: 1px solid rgb(255, 0, 255);
+	display: table;
+	text-align: center;
+	opacity: 0.3;
+	background-color: rgba(255, 0, 255, 0.1);
+	width: 100%;
+
+	> p {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}

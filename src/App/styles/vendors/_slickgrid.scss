@@ -1,0 +1,507 @@
+$rowHeight: 25px;
+
+.grid-canvas {
+	position: relative;
+	outline: 0;
+}
+
+.slickgrid,
+.slickgrid *,
+.slick-header-column {
+	@include box-sizing(content-box);
+}
+
+.slick {
+	&-header {
+		&,
+		&row {
+			&.ui-state-default {
+				width: 100%;
+				overflow: hidden;
+				border-left: 0;
+			}
+
+			&-columns {
+				position: relative;
+				white-space: nowrap;
+				cursor: default;
+				overflow: hidden;
+				margin: 5px 0 3px;
+			}
+		}
+
+		&-column {
+			@include ellipsis();
+			padding: 0;
+			margin: 0;
+			position: absolute;
+			vertical-align: middle;
+			z-index: 1;
+			cursor: default;
+
+			&.ui-state-default {
+				@include ellipsis();
+				font-size: 12px;
+				line-height: 16px;
+				font-weight: bold;
+				color: $color-gray-light;
+				position: relative;
+				display: inline-block;
+				float: left;
+				margin: 0;
+				padding: 0 15px;
+
+				&:hover {
+					> .slick-header-button {
+						width: 15px;
+					}
+				}
+
+				> .slick-sort-indicator {
+					display: none;
+				}
+
+				> .slick-column-name {
+					text-overflow: ellipsis;
+					overflow: hidden;
+					display: block;
+					white-space: nowrap;
+
+					> label {
+						position: absolute;
+					}
+				}
+
+				> .slick-resizable-handle {
+					position: absolute;
+					font-size: 0.1px;
+					display: block;
+					cursor: col-resize;
+					width: 4px;
+					right: 0;
+					top: 0;
+					height: 100%;
+					border-right: 1px dotted #9d9d9d;
+				}
+			}
+
+			&-sorted {
+				font-style: italic;
+
+				&.ui-state-default {
+					font-style: normal !important;
+					color: rgb(202, 36, 32) !important;
+
+					> .slick-sort-indicator {
+						position: relative;
+						top: 1px;
+						display: block;
+						padding-left: 2px;
+						padding-right: 10px;
+						font-size: 10px;
+						font-weight: normal;
+						float: right;
+						min-height: 16px;
+
+						&:after {
+							content: "";
+							display: block;
+							height: 8px;
+							width: 8px;
+							position: absolute;
+							right: 0;
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+						}
+
+						&.slick-sort-indicator {
+							&-asc {
+								&:after {
+									border-bottom: 8px solid rgb(202, 36, 32);
+									top: 3px;
+								}
+							}
+
+							&-desc {
+								&:after {
+									border-top: 8px solid rgb(202, 36, 32);
+									top: 4px;
+								}
+							}
+						}
+					}
+
+					> .slick-column-name {
+						margin-right: 12px;
+					}
+				}
+			}
+		}
+
+		&-button {
+			display: inline-block;
+			float: right;
+			vertical-align: top;
+			margin: 1px;
+			/**
+			* This makes all "float:right" elements after it that spill over to the next line
+			* display way below the lower boundary of the column thus hiding them.
+			*/
+			margin-bottom: 100px;
+			height: 15px;
+			width: 15px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			cursor: pointer;
+
+			&-hidden {
+				width: 0;
+				transition: 0.2s width;
+			}
+		}
+	}
+
+	&-headerrow {
+		&-columns {
+			margin: 0;
+		}
+
+		&-column {
+			text-overflow: clip;
+			position: absolute;
+
+			input {
+				width: 100%;
+			}
+
+			&.ui-state-default {
+				padding: 5px;
+			}
+
+			select option:first-child {
+				color: #808080;
+			}
+		}
+	}
+
+	&-viewport {
+		border-top: 1px solid rgba($color-gray-pale, 1);
+	}
+
+	&-row {
+		&.slick-group {
+			background-color: #dcb940;
+			background: linear-gradient(
+				to right,
+				rgba(154, 149, 0, 0.25),
+				rgba(255, 255, 255, 0)
+			) !important;
+			color: #9a9500;
+
+			> .secondary {
+				background: none;
+				color: #9a9500;
+				font-weight: bold;
+				font-size: 14px;
+			}
+
+			.slick-group-title {
+				> .badge {
+					background-color: rgba(255, 255, 255, 0.5);
+					color: #9a9500;
+					font-weight: normal;
+					font-size: 11px;
+					padding: 2px 6px 1px;
+					margin-top: -2px;
+				}
+			}
+		}
+
+		&.even {
+			background-color: rgba($color-gray-pale, 0.15);
+		}
+
+		&.active,
+		&:hover {
+			a {
+				color: white;
+				transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+
+				> .stock-ticker {
+					color: rgba(255, 255, 255, 0.65);
+					transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+				}
+			}
+
+			.rating {
+				color: rgba(white, 0.65);
+
+				&:before {
+					color: rgba(white, 1);
+					border-color: rgba(white, 1);
+				}
+			}
+		}
+
+		&.active {
+			background-color: $color-teal-light;
+			cursor: default;
+			color: white;
+
+			> .primary {
+				color: white;
+			}
+
+			> .secondary {
+				color: rgba(255, 255, 255, 0.65);
+			}
+
+			.btn {
+				&-default {
+					color: white;
+					border-color: rgba(255, 255, 255, 0.3);
+					background-color: transparent;
+
+					&:hover,
+					&:active,
+					&.active {
+						background-color: #e6e6e6;
+					}
+				}
+			}
+		}
+
+		&:hover {
+			background-color: $color-gray-pale;
+			transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+
+			> .primary {
+				color: white;
+			}
+
+			> .secondary {
+				color: rgba(white, 0.65);
+			}
+
+			.btn-default {
+				color: white;
+				border-color: rgba(255, 255, 255, 0.3);
+
+				&:hover,
+				&:active,
+				&.active {
+					color: black;
+					border-color: #adadad;
+				}
+			}
+		}
+
+		.rating {
+			&:before {
+				content: "";
+				display: block;
+				float: left;
+				width: 14px;
+				height: 14px;
+				border: 1px solid rgb(185, 185, 185);
+				text-align: center;
+				font-size: 11px;
+				line-height: normal;
+				margin-right: 6px;
+				-webkit-font-smoothing: antialiased;
+				box-sizing: border-box;
+			}
+
+			&-buy {
+				color: rgba(90, 116, 0, 0.6);
+
+				&:before {
+					content: "1";
+					color: rgb(90, 116, 0);
+					border-color: rgb(90, 116, 0);
+				}
+			}
+
+			&-neutral {
+				color: rgba(204, 141, 25, 0.6);
+
+				&:before {
+					content: "2";
+					color: rgb(204, 141, 25);
+					border-color: rgb(204, 141, 25);
+				}
+			}
+
+			&-reduce {
+				color: rgba(143, 51, 54, 0.6);
+
+				&:before {
+					content: "3";
+					color: rgb(143, 51, 54);
+					border-color: rgb(143, 51, 54);
+				}
+			}
+
+			&-suspended:before {
+				content: none;
+			}
+		}
+
+		&.ui-widget-content,
+		&.ui-state-active {
+			position: absolute;
+			border: 0;
+			width: 100%;
+		}
+
+		.btn + .btn {
+			margin-left: 4px;
+		}
+	}
+
+	&-cell {
+		@include ellipsis();
+		line-height: $rowHeight;
+		padding: 0 15px;
+		margin: 0;
+		position: absolute;
+		vertical-align: middle;
+		z-index: 1;
+		cursor: default;
+
+		&:focus {
+			outline: none;
+		}
+
+		&.primary {
+			/*width: 42.99363057324841%;*/
+			padding: 7px 0 7px 10px;
+			font-size: 14px;
+			line-height: 16px;
+			color: black;
+		}
+
+		&.secondary {
+			/*width: 17.19745222929936%;*/
+			padding: 8px 0 8px 0;
+			font-size: 12px;
+			line-height: 14px;
+		}
+
+		&.io-name {
+			padding-left: 0;
+		}
+
+		.fa-stack {
+			width: $rowHeight;
+			height: $rowHeight;
+			line-height: inherit;
+		}
+	}
+
+	&-pager {
+		width: 100%;
+		height: 30px;
+		vertical-align: middle;
+		border-bottom: 1px solid rgba(185, 185, 185, 1);
+		box-sizing: content-box;
+
+		&-status {
+			display: inline-block;
+			padding: 7px;
+			font-size: 12px;
+		}
+
+		&-nav {
+			display: inline-block;
+			line-height: 0;
+			float: left;
+
+			.ui-icon {
+				height: 30px;
+				width: 30px;
+				display: block;
+				position: relative;
+
+				&:hover {
+					background-color: #649cb3;
+					color: white;
+				}
+
+				&:before {
+					font: normal normal normal 16px/1 FontAwesome;
+					text-rendering: auto;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					text-align: center;
+					width: 16px;
+					height: 16px;
+					position: absolute;
+					left: 7px;
+					top: 7px;
+					color: black;
+					cursor: hand;
+				}
+
+				&.ui-state {
+					&-default {
+						margin: 0;
+					}
+
+					&-disabled {
+						background-color: transparent !important;
+						cursor: not-allowed;
+
+						&:before {
+							color: #b9b9b9;
+						}
+					}
+				}
+
+				&-container {
+					display: inline-block;
+
+					&:hover > .ui-icon {
+						color: white !important;
+					}
+				}
+
+				&-seek {
+					&-first:before {
+						content: "\f100";
+					}
+
+					&-prev:before {
+						content: "\f104";
+					}
+
+					&-next:before {
+						content: "\f105";
+					}
+
+					&-end:before {
+						content: "\f101";
+					}
+				}
+			}
+		}
+
+		&-settings {
+			display: block;
+			float: right;
+
+			* {
+				vertical-align: middle;
+			}
+
+			a {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+
+	&-pane {
+		outline: none;
+	}
+}

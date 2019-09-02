@@ -1,0 +1,75 @@
+@include keyframes(spin) {
+	to {
+		rotate: 1turn;
+	}
+}
+
+.spinner {
+	background-color: rgba(255, 255, 255, 0.9);
+	display: block;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: 1;
+
+	&:last-child {
+		height: 60px;
+		position: relative;
+	}
+
+	> .spinner-placeholder {
+		display: block;
+		top: 50%;
+		left: 50%;
+		translate: -50%, -50%;
+		position: absolute;
+	}
+
+	.rotating-part {
+		position: relative;
+		display: block;
+		width: 5em;
+		height: 5em;
+		font-size: 12px;
+		text-indent: 999em;
+		overflow: hidden;
+		animation: spin 1s infinite steps(8);
+
+		&:before,
+		&:after,
+		> div:before,
+		> div:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 2.25em; /* (container width - part width)/2  */
+			width: 0.5em;
+			height: 1.5em;
+			border-radius: 0.2em;
+			box-shadow: 0 3.5em rgba(0, 0, 0, 0.1); /* container height - part height */
+			transform-origin: 50% 2.5em; /* container height / 2 */
+		}
+
+		&:before {
+			background: rgba(0, 0, 0, 0.7);
+		}
+
+		&:after {
+			rotate: -45deg;
+			background: rgba(0, 0, 0, 0.55);
+		}
+
+		> div:before {
+			rotate: 90deg;
+			background: rgba(0, 0, 0, 0.4);
+		}
+
+		> div:after {
+			rotate: -135deg;
+			background: rgba(0, 0, 0, 0.25);
+		}
+	}
+}

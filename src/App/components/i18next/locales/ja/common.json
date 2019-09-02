@@ -1,0 +1,65 @@
+{
+	"home": "ホーム",
+	"appName": "チャート・ビュアー",
+	"button": {
+		"add": "加算",
+		"logIn": "Log In",
+		"logOut": "ログオフ",
+		"cancel": "キャンセル",
+		"save": "保存"
+	},
+	"youAreAboutToLogOut": "ログオフしてよろしいですか？",
+	"recentlyOpenedPlots": "前回のプロット",
+	"userMenu": {
+		"tabs": {
+			"settings": {
+				"tabName": "設定",
+				"dataFormat": "日付フォーマット"
+			},
+			"changePassword": {
+				"tabName": "パスワードの変更",
+				"currentPassword": "現在のパスワード",
+				"newPassword": "新しいパスワード"
+			},
+			"userProfile": {
+				"tabName": "ユーザー設定",
+				"firstName": "名",
+				"lastName": "氏",
+				"email": "Email"
+			}
+		}
+	},
+	"helpMenu": {
+		"about": "ChartViewer について",
+		"intUserGuide": "Internal User Guide",
+		"reportIssue": "Report an Issue..."
+	},
+	"tabs": {
+		"expressions": {
+			"tabName": "Expressions",
+			"table": {
+				"tools": {
+					"actions": {
+						"label": "Actions"
+					}
+				},
+				"cols": {
+					"key": "Key",
+					"var": "Var",
+					"expression": "Expression",
+					"legend": "Name",
+					"axis": "Axis",
+					"action": {
+						"label": "Action"
+					}
+				}
+			}
+		},
+		"stats": {
+			"tabName": "Stats"
+		},
+		"format": {
+			"tabName": "Format"
+		}
+	}
+}

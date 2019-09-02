@@ -1,0 +1,48 @@
+.split {
+	flex: 1 1 auto;
+	display: flex;
+}
+
+.gutter {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+	&-horizontal {
+		cursor: col-resize;
+		border-left: 1px solid rgba(115, 115, 115, 0.3);
+		border-right: 1px solid rgba(115, 115, 115, 0.3);
+
+		&:before {
+			content: "";
+			display: block;
+			height: 49px;
+			top: 50%;
+			margin: -24px 0 auto auto;
+			z-index: 1000;
+			position: relative;
+			border-left: 1px dotted $color-gray-pale;
+			width: 2px;
+		}
+
+		&:hover {
+			&:before {
+				border-color: $color-gray;
+			}
+		}
+
+		&:active {
+			&:before {
+				border-color: black;
+			}
+		}
+	}
+
+	&-vertical {
+		cursor: row-resize;
+
+		&:before {
+			// TODO: create vertical handle
+		}
+	}
+}

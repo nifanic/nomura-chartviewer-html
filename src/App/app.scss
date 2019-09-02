@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+Vars and mixins
+*/
+@import "styles/helpers/variables";
+@import "styles/helpers/mixins";
+@import "styles/helpers/markup";
+
+/*
+Vendors
+*/
+@import "~font-awesome/scss/font-awesome";
+@import "~breakpoint-sass";
+@import "styles/vendors/bootstrap/bootstrap";
+@import "styles/vendors/finderjs";
+@import "components/_shared/jstree/jstree";
+@import "styles/vendors/slickgrid";
+@import "styles/vendors/splitjs";
+
+/*
+Reset
+*/
+@import "styles/base/reset";
+@import "styles/base/typography";
+@import "styles/base/iconography";
+
+/*
+Layout
+*/
+@import "styles/layout/header";
+@import "styles/layout/body";
+@import "styles/layout/footer";
+
+/*
+View-specific
+*/
+@import "styles/views/chartviewer";
+@import "styles/views/browser-not-supported";

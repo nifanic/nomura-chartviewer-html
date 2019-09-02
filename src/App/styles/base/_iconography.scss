@@ -1,0 +1,1486 @@
+/**
+ *
+ * Nomura Iconography
+ *
+ */
+
+@mixin icon-size($x, $y) {
+	&-lg {
+		width: 36px;
+		height: 36px;
+		background-position: -#{$x}px -#{$y}px;
+	}
+	&-md {
+		width: 24px;
+		height: 24px;
+		background-position: -#{$x + 4}px -#{$y + 169}px;
+	}
+}
+
+@mixin icon-color-size($aclass, $origin-x, $origin-y: 79) {
+	&-#{$aclass} {
+		&-gray {
+			@include icon-size($origin-x, $origin-y);
+		}
+
+		&-white {
+			@include icon-size($origin-x, $origin-y + 42);
+		}
+
+		&-red {
+			@include icon-size($origin-x, $origin-y + (42 + 42));
+		}
+	}
+}
+
+.icon {
+	&-ui {
+		background-image: url("../static/img/sprite--nomura-ui--v2015.1.0.png");
+		display: block;
+	}
+
+	&-aclass {
+		background-image: url("../static/img/sprite--asset-class-icons--v2015.1.0.png");
+		display: block;
+
+		@include icon-color-size("economics", 178);
+		@include icon-color-size("equity", 94);
+		@include icon-color-size("credit", 220);
+		@include icon-color-size("markets", 52);
+		@include icon-color-size("rates", 304);
+		@include icon-color-size("fx", 262);
+		@include icon-color-size("global_strategy", 136);
+		@include icon-color-size("quants", 346);
+	}
+}
+
+.flag {
+	&:before {
+		content: "";
+		display: block;
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		left: 19px;
+		top: -1px;
+		background: url("../static/img/sprite--flags--v2016.2.0.png") no-repeat;
+
+		.photo & {
+			content: none;
+		}
+	}
+
+	.photo & {
+		height: 30px;
+		width: 30px;
+		display: block;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		box-shadow: -2px 3px 7px #9d9d9d;
+		z-index: 1000;
+		background-image: url("../static/img/grp--ui-icons--sprite.png");
+		background-position: -80px -165px;
+	}
+
+	&-ad {
+		&:before {
+			background-position: -16px 0;
+		}
+	}
+
+	&-ae {
+		&:before {
+			background-position: -32px 0;
+		}
+
+		.photo & {
+			background-position: -598px -165px;
+		}
+	}
+
+	&-af {
+		&:before {
+			background-position: -48px 0;
+		}
+	}
+
+	&-ag {
+		&:before {
+			background-position: -64px 0;
+		}
+	}
+
+	&-ai {
+		&:before {
+			background-position: -80px 0;
+		}
+	}
+
+	&-al {
+		&:before {
+			background-position: -96px 0;
+		}
+	}
+
+	&-am {
+		&:before {
+			background-position: -112px 0;
+		}
+	}
+
+	&-an {
+		&:before {
+			background-position: -128px 0;
+		}
+	}
+
+	&-ao {
+		&:before {
+			background-position: -144px 0;
+		}
+	}
+
+	&-ar {
+		&:before {
+			background-position: -160px 0;
+		}
+	}
+
+	&-as {
+		&:before {
+			background-position: -176px 0;
+		}
+	}
+
+	&-at {
+		&:before {
+			background-position: -192px 0;
+		}
+	}
+
+	&-au {
+		&:before {
+			background-position: -208px 0;
+		}
+
+		.photo & {
+			background-position: -80px -165px;
+		}
+	}
+
+	&-aw {
+		&:before {
+			background-position: -224px 0;
+		}
+	}
+
+	&-az {
+		&:before {
+			background-position: 0 -16px;
+		}
+	}
+
+	&-ba {
+		&:before {
+			background-position: -16px -16px;
+		}
+	}
+
+	&-bb {
+		&:before {
+			background-position: -32px -16px;
+		}
+	}
+
+	&-bd {
+		&:before {
+			background-position: -48px -16px;
+		}
+	}
+
+	&-be {
+		&:before {
+			background-position: -64px -16px;
+		}
+	}
+
+	&-bf {
+		&:before {
+			background-position: -80px -16px;
+		}
+	}
+
+	&-bg {
+		&:before {
+			background-position: -96px -16px;
+		}
+	}
+
+	&-bh {
+		&:before {
+			background-position: -112px -16px;
+		}
+	}
+
+	&-bi {
+		&:before {
+			background-position: -128px -16px;
+		}
+	}
+
+	&-bj {
+		&:before {
+			background-position: -144px -16px;
+		}
+	}
+
+	&-bm {
+		&:before {
+			background-position: -160px -16px;
+		}
+	}
+
+	&-bn {
+		&:before {
+			background-position: -176px -16px;
+		}
+	}
+
+	&-bo {
+		&:before {
+			background-position: -192px -16px;
+		}
+	}
+
+	&-br {
+		&:before {
+			background-position: -208px -16px;
+		}
+	}
+
+	&-bs {
+		&:before {
+			background-position: -224px -16px;
+		}
+	}
+
+	&-bt {
+		&:before {
+			background-position: 0 -32px;
+		}
+	}
+
+	&-bw {
+		&:before {
+			background-position: -16px -32px;
+		}
+	}
+
+	&-by {
+		&:before {
+			background-position: -32px -32px;
+		}
+	}
+
+	&-bz {
+		&:before {
+			background-position: -48px -32px;
+		}
+	}
+
+	&-ca {
+		&:before {
+			background-position: -64px -32px;
+		}
+	}
+
+	&-cd {
+		&:before {
+			background-position: -80px -32px;
+		}
+	}
+
+	&-cf {
+		&:before {
+			background-position: -96px -32px;
+		}
+	}
+
+	&-cg {
+		&:before {
+			background-position: -112px -32px;
+		}
+	}
+
+	&-ch {
+		&:before {
+			background-position: -128px -32px;
+		}
+	}
+
+	&-ci {
+		&:before {
+			background-position: -144px -32px;
+		}
+	}
+
+	&-ck {
+		&:before {
+			background-position: -160px -32px;
+		}
+	}
+
+	&-cl {
+		&:before {
+			background-position: -176px -32px;
+		}
+	}
+
+	&-cm {
+		&:before {
+			background-position: -192px -32px;
+		}
+	}
+
+	&-cn {
+		&:before {
+			background-position: -208px -32px;
+		}
+
+		.photo & {
+			background-position: -154px -165px;
+		}
+	}
+
+	&-co {
+		&:before {
+			background-position: -224px -32px;
+		}
+	}
+
+	&-cr {
+		&:before {
+			background-position: 0 -48px;
+		}
+	}
+
+	&-cu {
+		&:before {
+			background-position: -16px -48px;
+		}
+	}
+
+	&-cv {
+		&:before {
+			background-position: -32px -48px;
+		}
+	}
+
+	&-cy {
+		&:before {
+			background-position: -48px -48px;
+		}
+	}
+
+	&-cz {
+		&:before {
+			background-position: -64px -48px;
+		}
+	}
+
+	&-de {
+		&:before {
+			background-position: -80px -48px;
+		}
+	}
+
+	&-dj {
+		&:before {
+			background-position: -96px -48px;
+		}
+	}
+
+	&-dk {
+		&:before {
+			background-position: -112px -48px;
+		}
+	}
+
+	&-dm {
+		&:before {
+			background-position: -128px -48px;
+		}
+	}
+
+	&-do {
+		&:before {
+			background-position: -144px -48px;
+		}
+	}
+
+	&-dz {
+		&:before {
+			background-position: -160px -48px;
+		}
+	}
+
+	&-ec {
+		&:before {
+			background-position: -176px -48px;
+		}
+	}
+
+	&-ee {
+		&:before {
+			background-position: -192px -48px;
+		}
+	}
+
+	&-eg {
+		&:before {
+			background-position: -208px -48px;
+		}
+	}
+
+	&-eh {
+		&:before {
+			background-position: -224px -48px;
+		}
+	}
+
+	&-er {
+		&:before {
+			background-position: 0 -64px;
+		}
+	}
+
+	&-es {
+		&:before {
+			background-position: -16px -64px;
+		}
+
+		.photo & {
+			background-position: -487px -165px;
+		}
+	}
+
+	&-et {
+		&:before {
+			background-position: -32px -64px;
+		}
+	}
+
+	&-fi {
+		&:before {
+			background-position: -48px -64px;
+		}
+	}
+
+	&-fj {
+		&:before {
+			background-position: -64px -64px;
+		}
+	}
+
+	&-fm {
+		&:before {
+			background-position: -80px -64px;
+		}
+	}
+
+	&-fo {
+		&:before {
+			background-position: -96px -64px;
+		}
+	}
+
+	&-fr {
+		&:before {
+			background-position: -112px -64px;
+		}
+	}
+
+	&-ga {
+		&:before {
+			background-position: -128px -64px;
+		}
+	}
+
+	&-gb {
+		&:before {
+			background-position: -144px -64px;
+		}
+
+		.photo & {
+			background-position: -635px -165px;
+		}
+	}
+
+	&-gd {
+		&:before {
+			background-position: -160px -64px;
+		}
+	}
+
+	&-ge {
+		&:before {
+			background-position: -176px -64px;
+		}
+	}
+
+	&-gg {
+		&:before {
+			background-position: -192px -64px;
+		}
+	}
+
+	&-gh {
+		&:before {
+			background-position: -208px -64px;
+		}
+	}
+
+	&-gi {
+		&:before {
+			background-position: -224px -64px;
+		}
+	}
+
+	&-gl {
+		&:before {
+			background-position: 0 -80px;
+		}
+	}
+
+	&-gm {
+		&:before {
+			background-position: -16px -80px;
+		}
+	}
+
+	&-gn {
+		&:before {
+			background-position: -32px -80px;
+		}
+	}
+
+	&-gp {
+		&:before {
+			background-position: -48px -80px;
+		}
+	}
+
+	&-gq {
+		&:before {
+			background-position: -64px -80px;
+		}
+	}
+
+	&-gr {
+		&:before {
+			background-position: -80px -80px;
+		}
+	}
+
+	&-gt {
+		&:before {
+			background-position: -96px -80px;
+		}
+	}
+
+	&-gu {
+		&:before {
+			background-position: -112px -80px;
+		}
+	}
+
+	&-gw {
+		&:before {
+			background-position: -128px -80px;
+		}
+	}
+
+	&-gy {
+		&:before {
+			background-position: -144px -80px;
+		}
+	}
+
+	&-hk {
+		&:before {
+			background-position: -160px -80px;
+		}
+
+		.photo & {
+			background-position: -191px -165px;
+		}
+	}
+
+	&-hn {
+		&:before {
+			background-position: -176px -80px;
+		}
+	}
+
+	&-hr {
+		&:before {
+			background-position: -192px -80px;
+		}
+	}
+
+	&-ht {
+		&:before {
+			background-position: -208px -80px;
+		}
+	}
+
+	&-hu {
+		&:before {
+			background-position: -224px -80px;
+		}
+	}
+
+	&-id {
+		&:before {
+			background-position: 0 -96px;
+		}
+
+		.photo & {
+			background-position: -265px -165px;
+		}
+	}
+
+	&-ie {
+		&:before {
+			background-position: -16px -96px;
+		}
+	}
+
+	&-il {
+		&:before {
+			background-position: -32px -96px;
+		}
+	}
+
+	&-im {
+		&:before {
+			background-position: -48px -96px;
+		}
+	}
+
+	&-in {
+		&:before {
+			background-position: -64px -96px;
+		}
+
+		.photo & {
+			background-position: -228px -165px;
+		}
+	}
+
+	&-iq {
+		&:before {
+			background-position: -80px -96px;
+		}
+	}
+
+	&-ir {
+		&:before {
+			background-position: -96px -96px;
+		}
+	}
+
+	&-is {
+		&:before {
+			background-position: -112px -96px;
+		}
+	}
+
+	&-it {
+		&:before {
+			background-position: -128px -96px;
+		}
+
+		.photo & {
+			background-position: -302px -165px;
+		}
+	}
+
+	&-je {
+		&:before {
+			background-position: -144px -96px;
+		}
+	}
+
+	&-jm {
+		&:before {
+			background-position: -160px -96px;
+		}
+	}
+
+	&-jo {
+		&:before {
+			background-position: -176px -96px;
+		}
+	}
+
+	&-jp {
+		&:before {
+			background-position: -192px -96px;
+		}
+
+		.photo & {
+			background-position: -339px -165px;
+		}
+	}
+
+	&-ke {
+		&:before {
+			background-position: -208px -96px;
+		}
+	}
+
+	&-kg {
+		&:before {
+			background-position: -224px -96px;
+		}
+	}
+
+	&-kh {
+		&:before {
+			background-position: 0 -112px;
+		}
+	}
+
+	&-ki {
+		&:before {
+			background-position: -16px -112px;
+		}
+	}
+
+	&-km {
+		&:before {
+			background-position: -32px -112px;
+		}
+	}
+
+	&-kn {
+		&:before {
+			background-position: -48px -112px;
+		}
+	}
+
+	&-kp {
+		&:before {
+			background-position: -64px -112px;
+		}
+	}
+
+	&-kr {
+		&:before {
+			background-position: -80px -112px;
+		}
+
+		.photo & {
+			background-position: -450px -165px;
+		}
+	}
+
+	&-kw {
+		&:before {
+			background-position: -96px -112px;
+		}
+	}
+
+	&-ky {
+		&:before {
+			background-position: -112px -112px;
+		}
+	}
+
+	&-kz {
+		&:before {
+			background-position: -128px -112px;
+		}
+	}
+
+	&-la {
+		&:before {
+			background-position: -144px -112px;
+		}
+	}
+
+	&-lb {
+		&:before {
+			background-position: -160px -112px;
+		}
+
+		.photo & {
+			background-position: 0 0;
+		}
+	}
+
+	&-lc {
+		&:before {
+			background-position: -176px -112px;
+		}
+	}
+
+	&-li {
+		&:before {
+			background-position: -192px -112px;
+		}
+	}
+
+	&-lk {
+		&:before {
+			background-position: -208px -112px;
+		}
+	}
+
+	&-lr {
+		&:before {
+			background-position: -224px -112px;
+		}
+	}
+
+	&-ls {
+		&:before {
+			background-position: 0 -128px;
+		}
+	}
+
+	&-lt {
+		&:before {
+			background-position: -16px -128px;
+		}
+	}
+
+	&-lu {
+		&:before {
+			background-position: -32px -128px;
+		}
+	}
+
+	&-lv {
+		&:before {
+			background-position: -48px -128px;
+		}
+	}
+
+	&-ly {
+		&:before {
+			background-position: -64px -128px;
+		}
+	}
+
+	&-ma {
+		&:before {
+			background-position: -80px -128px;
+		}
+	}
+
+	&-mc {
+		&:before {
+			background-position: -96px -128px;
+		}
+	}
+
+	&-md {
+		&:before {
+			background-position: -112px -128px;
+		}
+	}
+
+	&-me {
+		&:before {
+			background-position: -128px -128px;
+		}
+	}
+
+	&-mg {
+		&:before {
+			background-position: -144px -128px;
+		}
+	}
+
+	&-mh {
+		&:before {
+			background-position: -160px -128px;
+		}
+	}
+
+	&-mk {
+		&:before {
+			background-position: -176px -128px;
+		}
+	}
+
+	&-ml {
+		&:before {
+			background-position: -192px -128px;
+		}
+	}
+
+	&-mm {
+		&:before {
+			background-position: -208px -128px;
+		}
+	}
+
+	&-mn {
+		&:before {
+			background-position: -224px -128px;
+		}
+	}
+
+	&-mo {
+		&:before {
+			background-position: 0 -144px;
+		}
+	}
+
+	&-mq {
+		&:before {
+			background-position: -16px -144px;
+		}
+	}
+
+	&-mr {
+		&:before {
+			background-position: -32px -144px;
+		}
+	}
+
+	&-ms {
+		&:before {
+			background-position: -48px -144px;
+		}
+	}
+
+	&-mt {
+		&:before {
+			background-position: -64px -144px;
+		}
+	}
+
+	&-mu {
+		&:before {
+			background-position: -80px -144px;
+		}
+	}
+
+	&-mv {
+		&:before {
+			background-position: -96px -144px;
+		}
+	}
+
+	&-mw {
+		&:before {
+			background-position: -112px -144px;
+		}
+	}
+
+	&-mx {
+		&:before {
+			background-position: -128px -144px;
+		}
+	}
+
+	&-my {
+		&:before {
+			background-position: -144px -144px;
+		}
+
+		.photo & {
+			background-position: -376px -165px;
+		}
+	}
+
+	&-mz {
+		&:before {
+			background-position: -160px -144px;
+		}
+	}
+
+	&-na {
+		&:before {
+			background-position: -176px -144px;
+		}
+	}
+
+	&-nc {
+		&:before {
+			background-position: -192px -144px;
+		}
+	}
+
+	&-ne {
+		&:before {
+			background-position: -208px -144px;
+		}
+	}
+
+	&-ng {
+		&:before {
+			background-position: -224px -144px;
+		}
+	}
+
+	&-ni {
+		&:before {
+			background-position: 0 -160px;
+		}
+	}
+
+	&-nl {
+		&:before {
+			background-position: -16px -160px;
+		}
+	}
+
+	&-no {
+		&:before {
+			background-position: -32px -160px;
+		}
+	}
+
+	&-np {
+		&:before {
+			background-position: -48px -160px;
+		}
+	}
+
+	&-nr {
+		&:before {
+			background-position: -64px -160px;
+		}
+	}
+
+	&-nz {
+		&:before {
+			background-position: -80px -160px;
+		}
+	}
+
+	&-om {
+		&:before {
+			background-position: -96px -160px;
+		}
+	}
+
+	&-pa {
+		&:before {
+			background-position: -112px -160px;
+		}
+	}
+
+	&-pe {
+		&:before {
+			background-position: -128px -160px;
+		}
+	}
+
+	&-pf {
+		&:before {
+			background-position: -144px -160px;
+		}
+	}
+
+	&-pg {
+		&:before {
+			background-position: -160px -160px;
+		}
+	}
+
+	&-ph {
+		&:before {
+			background-position: -176px -160px;
+		}
+	}
+
+	&-pk {
+		&:before {
+			background-position: -192px -160px;
+		}
+	}
+
+	&-pl {
+		&:before {
+			background-position: -208px -160px;
+		}
+	}
+
+	&-pr {
+		&:before {
+			background-position: -224px -160px;
+		}
+	}
+
+	&-ps {
+		&:before {
+			background-position: 0 -176px;
+		}
+	}
+
+	&-pt {
+		&:before {
+			background-position: -16px -176px;
+		}
+	}
+
+	&-pw {
+		&:before {
+			background-position: -32px -176px;
+		}
+	}
+
+	&-py {
+		&:before {
+			background-position: -48px -176px;
+		}
+	}
+
+	&-qa {
+		&:before {
+			background-position: -64px -176px;
+		}
+	}
+
+	&-re {
+		&:before {
+			background-position: -80px -176px;
+		}
+	}
+
+	&-ro {
+		&:before {
+			background-position: -96px -176px;
+		}
+	}
+
+	&-rs {
+		&:before {
+			background-position: -112px -176px;
+		}
+	}
+
+	&-ru {
+		&:before {
+			background-position: -128px -176px;
+		}
+	}
+
+	&-rw {
+		&:before {
+			background-position: -144px -176px;
+		}
+	}
+
+	&-sa {
+		&:before {
+			background-position: -160px -176px;
+		}
+	}
+
+	&-sb {
+		&:before {
+			background-position: -176px -176px;
+		}
+	}
+
+	&-sc {
+		&:before {
+			background-position: -192px -176px;
+		}
+	}
+
+	&-sd {
+		&:before {
+			background-position: -208px -176px;
+		}
+	}
+
+	&-se {
+		&:before {
+			background-position: -224px -176px;
+		}
+	}
+
+	&-sg {
+		&:before {
+			background-position: 0 -192px;
+		}
+
+		.photo & {
+			background-position: -413px -165px;
+		}
+	}
+
+	&-si {
+		&:before {
+			background-position: -16px -192px;
+		}
+	}
+
+	&-sk {
+		&:before {
+			background-position: -32px -192px;
+		}
+	}
+
+	&-sl {
+		&:before {
+			background-position: -48px -192px;
+		}
+	}
+
+	&-sm {
+		&:before {
+			background-position: -64px -192px;
+		}
+	}
+
+	&-sn {
+		&:before {
+			background-position: -80px -192px;
+		}
+	}
+
+	&-so {
+		&:before {
+			background-position: -96px -192px;
+		}
+	}
+
+	&-sr {
+		&:before {
+			background-position: -112px -192px;
+		}
+	}
+
+	&-st {
+		&:before {
+			background-position: -128px -192px;
+		}
+	}
+
+	&-sv {
+		&:before {
+			background-position: -144px -192px;
+		}
+	}
+
+	&-sy {
+		&:before {
+			background-position: -160px -192px;
+		}
+	}
+
+	&-sz {
+		&:before {
+			background-position: -176px -192px;
+		}
+	}
+
+	&-tc {
+		&:before {
+			background-position: -192px -192px;
+		}
+	}
+
+	&-td {
+		&:before {
+			background-position: -208px -192px;
+		}
+	}
+
+	&-tg {
+		&:before {
+			background-position: -224px -192px;
+		}
+	}
+
+	&-th {
+		&:before {
+			background-position: 0 -208px;
+		}
+
+		.photo & {
+			background-position: -561px -165px;
+		}
+	}
+
+	&-tj {
+		&:before {
+			background-position: -16px -208px;
+		}
+	}
+
+	&-tl {
+		&:before {
+			background-position: -32px -208px;
+		}
+	}
+
+	&-tm {
+		&:before {
+			background-position: -48px -208px;
+		}
+	}
+
+	&-tn {
+		&:before {
+			background-position: -64px -208px;
+		}
+	}
+
+	&-to {
+		&:before {
+			background-position: -80px -208px;
+		}
+	}
+
+	&-tr {
+		&:before {
+			background-position: -96px -208px;
+		}
+	}
+
+	&-tt {
+		&:before {
+			background-position: -112px -208px;
+		}
+	}
+
+	&-tv {
+		&:before {
+			background-position: -128px -208px;
+		}
+	}
+
+	&-tw {
+		&:before {
+			background-position: -144px -208px;
+		}
+
+		.photo & {
+			background-position: -524px -165px;
+		}
+	}
+
+	&-tz {
+		&:before {
+			background-position: -160px -208px;
+		}
+	}
+
+	&-ua {
+		&:before {
+			background-position: -176px -208px;
+		}
+	}
+
+	&-ug {
+		&:before {
+			background-position: -192px -208px;
+		}
+	}
+
+	&-us {
+		&:before {
+			background-position: -208px -208px;
+		}
+
+		.photo & {
+			background-position: -672px -165px;
+		}
+	}
+
+	&-uy {
+		&:before {
+			background-position: -224px -208px;
+		}
+	}
+
+	&-uz {
+		&:before {
+			background-position: 0 -224px;
+		}
+	}
+
+	&-va {
+		&:before {
+			background-position: -16px -224px;
+		}
+	}
+
+	&-vc {
+		&:before {
+			background-position: -32px -224px;
+		}
+	}
+
+	&-ve {
+		&:before {
+			background-position: -48px -224px;
+		}
+	}
+
+	&-vg {
+		&:before {
+			background-position: -64px -224px;
+		}
+	}
+
+	&-vi {
+		&:before {
+			background-position: -80px -224px;
+		}
+	}
+
+	&-vn {
+		&:before {
+			background-position: -96px -224px;
+		}
+	}
+
+	&-vu {
+		&:before {
+			background-position: -112px -224px;
+		}
+	}
+
+	&-ws {
+		&:before {
+			background-position: -128px -224px;
+		}
+	}
+
+	&-ye {
+		&:before {
+			background-position: -144px -224px;
+		}
+	}
+
+	&-za {
+		&:before {
+			background-position: -160px -224px;
+		}
+	}
+
+	&-zm {
+		&:before {
+			background-position: -176px -224px;
+		}
+	}
+
+	&-zw {
+		&:before {
+			background-position: -192px -224px;
+		}
+	}
+}

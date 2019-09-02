@@ -10,20 +10,28 @@
     "css-loader": "^2.0.0",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.0.2",
     "json-loader": "^0.5.7",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.10.0",
     "nodemon": "^1.18.7",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
     "sass-loader": "^7.1.0",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "scripts": {
-    "build": "webpack",
-    "dev:server": "nodemon ./src/server/index.js",
-    "dev:client": "./node_modules/.bin/webpack-dev-server --config ./src/config/webpack.config.js",
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "start:server": "nodemon ./src/server/index.js",
+    "start:client": "./node_modules/.bin/webpack-dev-server --config ./src/config/webpack.config.js",
+    "build": "webpack --progress --config src/config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -51,7 +59,7 @@
     "moment": "^2.22.2",
     "numeral": "^2.0.6",
     "raphael": "^2.2.7",
-    "slickgrid": "^2.3.22",
+    "slickgrid": "^2.4.13",
     "split.js": "^1.5.10",
     "velocity-animate": "^1.2.3"
   }

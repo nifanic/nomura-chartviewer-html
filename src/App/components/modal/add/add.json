@@ -1,0 +1,5152 @@
+{
+	"series": [
+		{
+			"label": "Government",
+			"internal": false,
+			"children": [
+				{
+					"label": "U.S. Treasuries",
+					"internal": false,
+					"children": [
+						{
+							"label": "U.S. Bills",
+							"internal": false,
+							"downloadable": false,
+							"type": "series",
+							"properties": {
+								"actionDate": {
+									"value": [
+										{
+											"label": "03 Sep 2015"
+										},
+										{
+											"label": "10 Sep 2015"
+										},
+										{
+											"label": "17 Sep 2015"
+										},
+										{
+											"label": "24 Sep 2015"
+										},
+										{
+											"label": "01 Oct 2015"
+										},
+										{
+											"label": "08 Oct 2015"
+										},
+										{
+											"label": "15 Oct 2015"
+										},
+										{
+											"label": "22 Oct 2015"
+										},
+										{
+											"label": "29 Oct 2015"
+										},
+										{
+											"label": "05 Nov 2015"
+										},
+										{
+											"label": "12 Nov 2015"
+										},
+										{
+											"label": "19 Nov 2015"
+										},
+										{
+											"label": "27 Nov 2015"
+										}
+									],
+									"controlType": "select"
+								},
+								"type": {
+									"value": [
+										{
+											"label": "Price"
+										},
+										{
+											"label": "Yield"
+										},
+										{
+											"label": "Asset Swap Margin"
+										},
+										{
+											"label": "Libor Yield-Yield Spread"
+										},
+										{
+											"label": "TradeWeb U.K. Yield"
+										},
+										{
+											"label": "TradeWeb U.K. Price"
+										},
+										{
+											"label": "TradeWeb U.S. Yield"
+										},
+										{
+											"label": "TradeWeb U.S. Price"
+										},
+										{
+											"label": "Modified Duration"
+										},
+										{
+											"label": "Risk (PV01)"
+										},
+										{
+											"label": "Convexity"
+										}
+									],
+									"controlType": "select"
+								},
+								"coupon": {
+									"value": 0,
+									"controlType": "input"
+								}
+							}
+						},
+						{
+							"label": "U.S. Bonds",
+							"internal": false,
+							"children": [
+								{
+									"label": "2015",
+									"internal": false,
+									"children": [
+										{
+											"label": "T 0.375 31 Aug 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 1.250 31 Aug 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 15 Sep 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 30 Sep 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 1.250 30 Sep 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 15 Oct 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 31 Oct 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 1.250 31 Oct 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.375 15 Nov 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 4.500 15 Nov 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 9.875 15 Nov 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 30 Nov 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 1.375 30 Nov 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 15 Dec 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 0.250 31 Dec 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										},
+										{
+											"label": "T 2.125 31 Dec 15",
+											"children": [
+												{
+													"label": "Asset Swap Margin"
+												},
+												{
+													"label": "Convexity"
+												},
+												{
+													"label": "Libor Yield-Yield Spread"
+												},
+												{
+													"label": "Modified Duration"
+												},
+												{
+													"label": "Price"
+												},
+												{
+													"label": "Risk (PV01)"
+												},
+												{
+													"label": "TradeWeb UK Price"
+												},
+												{
+													"label": "TradeWeb UK Yield"
+												},
+												{
+													"label": "TradeWeb U.S. Price"
+												},
+												{
+													"label": "TradeWeb U.S. Yield"
+												},
+												{
+													"label": "Yield"
+												}
+											]
+										}
+									]
+								},
+								{
+									"label": "2016",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2017",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2018",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2019",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2020 onwards",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2030 onwards",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "U.S. Strips",
+							"internal": false,
+							"children": [
+								{
+									"label": "2016",
+									"internal": false,
+									"children": [
+										{
+											"label": "TSY",
+											"internal": false,
+											"children": [
+												{
+													"label": "TSY-S 0.000 31 Jul 16",
+													"internal": false,
+													"children": [
+														{
+															"label": "Reuters RTR",
+															"internal": false,
+															"children": [
+																{
+																	"label": "Price",
+																	"internal": false,
+																	"children": []
+																},
+																{
+																	"label": "Yield to Maturity",
+																	"internal": false,
+																	"children": []
+																}
+															]
+														},
+														{
+															"label": "Reuters American Company",
+															"internal": false,
+															"children": []
+														},
+														{
+															"label": "",
+															"internal": false,
+															"children": []
+														}
+													]
+												},
+												{
+													"label": "TSY-S 0.000 15 Aug 15",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "TSY-S 0.000 31 Aug 15",
+													"internal": false,
+													"children": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"label": "2017",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2018",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2019",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2020 onwards",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2030 onwards",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "2040 onwards",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "U.S. Generic On-the-runs",
+							"internal": false,
+							"children": [
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "U.S. OTR",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Choose...",
+							"internal": false
+						}
+					]
+				},
+				{
+					"label": "Canada",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Europe",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "European Generic On-the-runs",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Asia ex-Japan",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Japan",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Korea",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Futures",
+					"internal": false,
+					"children": [
+						{
+							"label": "EUR",
+							"internal": false,
+							"children": [
+								{
+									"label": "DU",
+									"internal": false,
+									"children": [
+										{
+											"label": "DUU5",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "DUZ5",
+											"internal": false,
+											"children": []
+										}
+									]
+								},
+								{
+									"label": "OE",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "RX",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "UB",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "BTS",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "IK",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "BTA",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "MFB",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "OAT",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "GBP",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "JPY",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "USD",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Fitted Yields",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Agency",
+			"internal": false,
+			"children": [
+				{
+					"label": "U.S.",
+					"internal": false
+				},
+				{
+					"label": "ASIA",
+					"internal": false,
+					"children": [
+						{
+							"label": "0.750 01Sep15 (GMTN)",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "BNG",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "CADES",
+					"internal": false,
+					"children": [
+						{
+							"label": "CADES 1.875 15 Sep 15 (EMTN)",
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.000 25 Feb 16 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.375 31 Mar 16 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.375 31 Mar 16 (144A)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.625 25 Apr 16 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.250 19 Sep 16 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.250 19 Sep 16 (144A)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 5.250 02 Nov 16 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.125 30 Jan 17 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.125 30 Jan 17 (144A)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.125 12 Apr 17 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 0.753 13 Apr 17 (MTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 4.125 25 Apr 17 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.375 29 Jan 18 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.375 29 Jan 18 (144A)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.250 07 Mar 18 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.250 12 Mar 18 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.250 12 Mar 18 (144A)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.000 25 May 18",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.125 25 May 19 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.850 25 Jul 19 (CPI)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 4.000 25 Oct 19 (0)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.000 17 Apr 20 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.000 17 Apr 20 (144A)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 4.250 25 Apr 20 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.875 28 Jul 20 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.750 25 Oct 20",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.000 26 Oct 20 (291)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.375 25 Apr 21",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 4.375 25 Oct 21",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.875 12 Feb 22 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.500 25 Oct 22 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 4.125 25 Apr 23 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 0.500 25 May 23 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 2.375 25 Jan 24",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 3.375 20 Mar 24 (REGS)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 1.500 25 Jul 24 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 0.000 18 Aug 25 (EMTN)",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						},
+						{
+							"label": "CADES 4.000 15 Dec 25",
+							"internal": false,
+							"children": [
+								{
+									"label": "Price"
+								},
+								{
+									"label": "Yield"
+								},
+								{
+									"label": "Asset Swap Margin"
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "COE",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "EBRD",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "EIB",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "IADB",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "IBRD",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "ICO",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "IFC",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "JBIC",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "JFM",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "KBN",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "KFW",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "KOMINS",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "NEDWBK",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "NIB",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "OKB",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "RENTEN",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Fitted Yields",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Interest Rates",
+			"internal": false,
+			"children": [
+				{
+					"label": "Deposit Rates",
+					"internal": false,
+					"children": [
+						{
+							"label": "EUR",
+							"internal": false,
+							"downloadable": true,
+							"children": [
+								{
+									"label": "London",
+									"internal": false,
+									"children": [
+										{
+											"label": "O/N",
+											"internal": false
+										},
+										{
+											"label": "T/N",
+											"internal": false
+										},
+										{
+											"label": "1W",
+											"internal": false
+										},
+										{
+											"label": "2W",
+											"internal": false
+										},
+										{
+											"label": "3W",
+											"internal": false
+										},
+										{
+											"label": "1M",
+											"internal": false
+										},
+										{
+											"label": "2M",
+											"internal": false
+										},
+										{
+											"label": "3M",
+											"internal": false
+										},
+										{
+											"label": "4M",
+											"internal": false
+										},
+										{
+											"label": "5M",
+											"internal": false
+										},
+										{
+											"label": "6M",
+											"internal": false
+										},
+										{
+											"label": "7M",
+											"internal": false
+										},
+										{
+											"label": "8M",
+											"internal": false
+										},
+										{
+											"label": "9M",
+											"internal": false
+										},
+										{
+											"label": "10M",
+											"internal": false
+										},
+										{
+											"label": "11M",
+											"internal": false
+										},
+										{
+											"label": "12M",
+											"internal": false
+										}
+									]
+								}
+							]
+						},
+						{
+							"label": "GBP",
+							"internal": false,
+							"downloadable": true,
+							"children": [
+								{
+									"label": "London",
+									"internal": false,
+									"children": [
+										{
+											"label": "O/N",
+											"internal": false
+										},
+										{
+											"label": "T/N",
+											"internal": false
+										},
+										{
+											"label": "1W",
+											"internal": false
+										},
+										{
+											"label": "2W",
+											"internal": false
+										},
+										{
+											"label": "3W",
+											"internal": false
+										},
+										{
+											"label": "1M",
+											"internal": false
+										},
+										{
+											"label": "2M",
+											"internal": false
+										},
+										{
+											"label": "3M",
+											"internal": false
+										},
+										{
+											"label": "4M",
+											"internal": false
+										},
+										{
+											"label": "5M",
+											"internal": false
+										},
+										{
+											"label": "6M",
+											"internal": false
+										},
+										{
+											"label": "7M",
+											"internal": false
+										},
+										{
+											"label": "8M",
+											"internal": false
+										},
+										{
+											"label": "9M",
+											"internal": false
+										},
+										{
+											"label": "10M",
+											"internal": false
+										},
+										{
+											"label": "11M",
+											"internal": false
+										},
+										{
+											"label": "12M",
+											"internal": false
+										}
+									]
+								}
+							]
+						},
+						{
+							"label": "JPY",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "USD",
+							"internal": false,
+							"downloadable": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Swap Rates",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Swaptions",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Cap/Floor",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Futures",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "OIS",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Inflation Products",
+			"internal": false,
+			"children": [
+				{
+					"label": "Inflation Bonds",
+					"internal": false,
+					"children": [
+						{
+							"label": "France",
+							"internal": false,
+							"children": [
+								{
+									"label": "BTNSi 0.450 25 Jul 16 (BTNi)",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "FRTRi 1.000 25 Jul 17 (OATi)",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "Germany",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Greece",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Italy",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Japan",
+							"internal": true,
+							"downloadable": true,
+							"children": []
+						},
+						{
+							"label": "United Kingdom",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "U.S.",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "U.S. Strips",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Inflation Swaps",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Credit",
+			"internal": false,
+			"children": [
+				{
+					"label": "Corporates",
+					"internal": false
+				},
+				{
+					"label": "Single NAme CDS",
+					"internal": false
+				},
+				{
+					"label": "CDS Indices",
+					"internal": false
+				},
+				{
+					"label": "CDO Price",
+					"internal": false,
+					"children": [
+						{
+							"label": "CDX 125_0_100",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "CDX 125 S1_0_100",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "CDX 125 S2_0_100",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "CDX 125 S3_0_100",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "CDO Param",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Credit Volumes",
+					"internal": false
+				},
+				{
+					"label": "Credit BM Spreads",
+					"internal": false
+				}
+			]
+		},
+		{
+			"label": "Securitized Products",
+			"internal": false,
+			"children": [
+				{
+					"label": "",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "FX",
+			"internal": false,
+			"children": [
+				{
+					"label": "Spot Rate",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Volatility",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Forward",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Cross Currency Basis Spreads",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Cross Currency Swap",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Models",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Indices",
+			"internal": false,
+			"children": [
+				{
+					"label": "Index",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Volatility",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Yield",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Algo Index",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Portfolio Indicies",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Equities",
+			"internal": false,
+			"children": [
+				{
+					"label": "Search...",
+					"internal": false
+				},
+				{
+					"label": "Sector",
+					"internal": false,
+					"children": [
+						{
+							"label": "Aerospace & Defence",
+							"internal": false
+						},
+						{
+							"label": "Automobiles",
+							"internal": false
+						},
+						{
+							"label": "Commercial Services",
+							"internal": false
+						},
+						{
+							"label": "Construction & Real Estate",
+							"internal": false
+						},
+						{
+							"label": "Consumer Cyclical",
+							"internal": false
+						},
+						{
+							"label": "Consumer Finance",
+							"internal": false
+						},
+						{
+							"label": "Consumer Non-Cyclical",
+							"internal": false
+						},
+						{
+							"label": "Electronics & IT",
+							"internal": false
+						},
+						{
+							"label": "Financials Senior",
+							"internal": false
+						},
+						{
+							"label": "Forestry &amp; Paper",
+							"internal": false
+						},
+						{
+							"label": "Industrials",
+							"internal": false
+						},
+						{
+							"label": "Insurance",
+							"internal": false
+						},
+						{
+							"label": "Oil Gas & Other Resources",
+							"internal": false
+						},
+						{
+							"label": "Pharmaceuticals & Biotech",
+							"internal": false
+						},
+						{
+							"label": "Retailers",
+							"internal": false
+						},
+						{
+							"label": "Telecommunications",
+							"internal": false
+						},
+						{
+							"label": "Tobacco",
+							"internal": false
+						},
+						{
+							"label": "Transport",
+							"internal": false
+						},
+						{
+							"label": "Utilities",
+							"internal": false
+						}
+					]
+				},
+				{
+					"label": "Country",
+					"internal": false,
+					"children": [
+						{
+							"label": "Global",
+							"internal": false
+						},
+						{
+							"label": "Argentina",
+							"internal": false
+						},
+						{
+							"label": "Australia",
+							"internal": false
+						},
+						{
+							"label": "Austria",
+							"internal": false
+						},
+						{
+							"label": "Bahrain",
+							"internal": false
+						},
+						{
+							"label": "Belgium",
+							"internal": false
+						},
+						{
+							"label": "Bermuda",
+							"internal": false
+						},
+						{
+							"label": "Brazil",
+							"internal": false
+						},
+						{
+							"label": "Bulgaria",
+							"internal": false
+						},
+						{
+							"label": "Canada",
+							"internal": false
+						},
+						{
+							"label": "China",
+							"internal": false
+						},
+						{
+							"label": "Colombia",
+							"internal": false
+						},
+						{
+							"label": "Croatia",
+							"internal": false
+						},
+						{
+							"label": "Cyprus",
+							"internal": false
+						},
+						{
+							"label": "Czech Republic",
+							"internal": false
+						},
+						{
+							"label": "Denmark",
+							"internal": false
+						},
+						{
+							"label": "Egypt",
+							"internal": false
+						},
+						{
+							"label": "Estonia",
+							"internal": false
+						},
+						{
+							"label": "Finland",
+							"internal": false
+						},
+						{
+							"label": "France",
+							"internal": false
+						},
+						{
+							"label": "Germany",
+							"internal": false
+						},
+						{
+							"label": "Greece",
+							"internal": false
+						},
+						{
+							"label": "Hong Kong",
+							"internal": false
+						},
+						{
+							"label": "Hungary",
+							"internal": false
+						},
+						{
+							"label": "Iceland",
+							"internal": false
+						},
+						{
+							"label": "India",
+							"internal": false
+						},
+						{
+							"label": "Indonesia",
+							"internal": false
+						},
+						{
+							"label": "Ireland",
+							"internal": false
+						},
+						{
+							"label": "Israel",
+							"internal": false
+						},
+						{
+							"label": "Italy",
+							"internal": false
+						},
+						{
+							"label": "Jamaica",
+							"internal": false
+						},
+						{
+							"label": "Japan",
+							"internal": false
+						},
+						{
+							"label": "Kazakhstan",
+							"internal": false
+						},
+						{
+							"label": "Korea - South",
+							"internal": false
+						},
+						{
+							"label": "Latvia",
+							"internal": false
+						},
+						{
+							"label": "Lebanon",
+							"internal": false
+						},
+						{
+							"label": "Lithuania",
+							"internal": false
+						},
+						{
+							"label": "Luxembourg",
+							"internal": false
+						},
+						{
+							"label": "Malaysia",
+							"internal": false
+						},
+						{
+							"label": "Mexico",
+							"internal": false
+						},
+						{
+							"label": "Morocco",
+							"internal": false
+						},
+						{
+							"label": "Netherlands",
+							"internal": false
+						},
+						{
+							"label": "New Zealand",
+							"internal": false
+						},
+						{
+							"label": "Norway",
+							"internal": false
+						},
+						{
+							"label": "Pakistan",
+							"internal": false
+						},
+						{
+							"label": "Peru",
+							"internal": false
+						},
+						{
+							"label": "Philippines",
+							"internal": false
+						},
+						{
+							"label": "Poland",
+							"internal": false
+						},
+						{
+							"label": "Portugal",
+							"internal": false
+						},
+						{
+							"label": "Qatar",
+							"internal": false
+						},
+						{
+							"label": "Romania",
+							"internal": false
+						},
+						{
+							"label": "Russia",
+							"internal": false
+						},
+						{
+							"label": "Saudi Arabia",
+							"internal": false
+						},
+						{
+							"label": "Singapore",
+							"internal": false
+						},
+						{
+							"label": "Slovakia",
+							"internal": false
+						},
+						{
+							"label": "Slovenia",
+							"internal": false
+						},
+						{
+							"label": "South Africa",
+							"internal": false
+						},
+						{
+							"label": "Spain",
+							"internal": false
+						},
+						{
+							"label": "Sweden",
+							"internal": false
+						},
+						{
+							"label": "Switzerland",
+							"internal": false
+						},
+						{
+							"label": "Taiwan",
+							"internal": false
+						},
+						{
+							"label": "Thailand",
+							"internal": false
+						},
+						{
+							"label": "Tunisia",
+							"internal": false
+						},
+						{
+							"label": "Turkey",
+							"internal": false
+						},
+						{
+							"label": "Ukraine",
+							"internal": false
+						},
+						{
+							"label": "United Arab Emirates",
+							"internal": false
+						},
+						{
+							"label": "United Kingdom",
+							"internal": false
+						},
+						{
+							"label": "United States",
+							"internal": false
+						},
+						{
+							"label": "Venezuela",
+							"internal": false
+						},
+						{
+							"label": "Vietnam",
+							"internal": false
+						}
+					]
+				},
+				{
+					"label": "Index",
+					"internal": false,
+					"children": [
+						{
+							"label": "AXJO",
+							"children": [
+								{
+									"label": "Price",
+									"children": [
+										{
+											"label": "Rate",
+											"type": "series"
+										}
+									]
+								}
+							]
+						},
+						{
+							"label": "CAC40",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "DAX",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "EUROSTOXX50",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "FTSE100",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "FTSEXINHUA25",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "HANGSENG",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "HSCE",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "KS200",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "NIKKEI225",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "RDXEUR",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "SP500",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "Index Volatility",
+					"internal": false,
+					"children": [
+						{
+							"label": "AXJO",
+							"children": [
+								{
+									"label": "Rate",
+									"children": [
+										{
+											"label": "1M",
+											"type": "series"
+										},
+										{
+											"label": "2M"
+										},
+										{
+											"label": "3M"
+										},
+										{
+											"label": "6M"
+										},
+										{
+											"label": "1Y"
+										},
+										{
+											"label": "2Y"
+										},
+										{
+											"label": "3Y"
+										},
+										{
+											"label": "4Y"
+										},
+										{
+											"label": "5Y"
+										},
+										{
+											"label": "7Y"
+										},
+										{
+											"label": "10Y"
+										},
+										{
+											"label": "12Y"
+										},
+										{
+											"label": "15Y"
+										},
+										{
+											"label": "20Y"
+										}
+									]
+								}
+							]
+						},
+						{
+							"label": "CAC40",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "DAX",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "EUROSTOXX50",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "FTSE100",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "FTSEXINHUA25",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "HANGSENG",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "HSCE",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "KS200",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "NIKKEI225",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "RDXEUR",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						},
+						{
+							"label": "SP500",
+							"children": [
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								},
+								{
+									"label": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Equity Strategy",
+			"internal": true,
+			"downloadable": true,
+			"children": [
+				{
+					"label": "Asia ex Japan",
+					"internal": false,
+					"children": [
+						{
+							"label": "All",
+							"internal": false,
+							"children": [
+								{
+									"label": "All",
+									"internal": false,
+									"children": [
+										{
+											"label": "Market Value (U.S. Dollar)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price (Local Currency)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price (U.S. Dollar)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Total Return (Local Currency)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Free Cash Flow Yield",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "12 Month Forward PE",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Dividend Yield",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to Capital Employed",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to EBITDA",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price to Book",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "EBITDA Margin",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Return on Capital Employed",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Return on Equity",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Earnings Revision",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Earnings Revision (3mth Moving Avg)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Capital Expenditure to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "FCF Dividend Cover",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Net Debt to EBITDA",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Net Debt to Equity",
+											"internal": false,
+											"downloadable": true
+										}
+									]
+								},
+								{
+									"label": "Basic Ind",
+									"internal": false,
+									"children": [
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										}
+									]
+								},
+								{
+									"label": "Capital Gds",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Con Cyc",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Con Stab",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Energy",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Ex Financials",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Financials",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Health",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Insurance",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Media",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Technology",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Telecoms",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Utilities",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "Hong Kong",
+							"internal": false,
+							"children": [
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "Australia",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "New Zealand",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Singapore",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Emerging Asia",
+					"internal": false,
+					"children": [
+						{
+							"label": "All",
+							"internal": false,
+							"children": [
+								{
+									"label": "All",
+									"internal": false,
+									"children": [
+										{
+											"label": "Market Value (U.S. Dollar)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price (Local Currency)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price (U.S. Dollar)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Total Return (Local Currency)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Free Cash Flow Yield",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "12 Month Forward PE",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Dividend Yield",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to Capital Employed",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to EBITDA",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price to Book",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "EBITDA Margin",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Return on Capital Employed",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Return on Equity",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Earnings Revision",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Earnings Revision (3mth Moving Avg)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Capital Expenditure to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "FCF Dividend Cover",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Net Debt to EBITDA",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Net Debt to Equity",
+											"internal": false,
+											"downloadable": true
+										}
+									]
+								},
+								{
+									"label": "Basic Ind",
+									"internal": false,
+									"children": [
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "",
+											"internal": false,
+											"downloadable": true
+										}
+									]
+								},
+								{
+									"label": "Capital Gds",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Con Cyc",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Con Stab",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Energy",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Ex Financials",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Financials",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Health",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Insurance",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Media",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Technology",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Telecoms",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Utilities",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "China",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "India",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Indonesia",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Malaysia",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Pakistan",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Philippines",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "South Korea",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Taiwan",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "Thailand",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Emerging Europe",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Emerging Markets",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Europe",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Europe ex. UK",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Japan",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Latin America",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "United Kingdom",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "United States",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "World",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "World ex. Japan",
+					"internal": false,
+					"children": [
+						{
+							"label": "All",
+							"internal": false,
+							"children": [
+								{
+									"label": "All",
+									"internal": false,
+									"children": [
+										{
+											"label": "Market Value (U.S. Dollar)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price (Local Currency)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price (U.S. Dollar)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Total Return (Local Currency)",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Free Cash Flow Yield",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "12 Month Forward PE",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Dividend Yield",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to Capital Employed",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to EBITDA",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Enterprise Value to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price to Book",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Price to Sales",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "EBITDA Margin",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Return to Capital Employed",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Return on Equity",
+											"internal": false,
+											"downloadable": true
+										},
+										{
+											"label": "Earnings Revision",
+											"internal": false,
+											"downloadable": true
+										}
+									]
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Economics",
+			"internal": false,
+			"children": [
+				{
+					"label": "UK",
+					"internal": false,
+					"children": [
+						{
+							"label": "BoE",
+							"internal": false,
+							"children": [
+								{
+									"label": "Monetary Policy",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Housing Equity Withdrawal (SA)",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "M4",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "M4 Lending",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "M4 ex-Intermediate Other Financial Corporations",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "M4 Lending ex-Intermediate Other Financial Corporations",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Quoted Rates",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Lending Secured on Dwellings",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Mortgage Approvals",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Mortgage Repayments (£m)",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "National Grid",
+							"internal": false,
+							"children": [
+								{
+									"label": "Gas",
+									"internal": false,
+									"children": [
+										{
+											"label": "Demand Totals",
+											"internal": false,
+											"children": [
+												{
+													"label": "Industrial Offtake Energy",
+													"internal": false
+												},
+												{
+													"label": "Industrial Offtake Volume",
+													"internal": false
+												},
+												{
+													"label": "Interconnector Exit Energy",
+													"internal": false
+												},
+												{
+													"label": "Interconnector Exit Volume",
+													"internal": false
+												}
+											]
+										},
+										{
+											"label": "Demand Totals Monthly Cumulative Sum",
+											"internal": false,
+											"children": [
+												{
+													"label": "",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "",
+													"internal": false,
+													"children": []
+												}
+											]
+										},
+										{
+											"label": "Import Totals",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "Import Totals Monthly Cumulative Sum",
+											"internal": false,
+											"children": []
+										}
+									]
+								},
+								{
+									"label": "Electricity",
+									"internal": false,
+									"children": [
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"label": "Nomura",
+							"internal": false,
+							"children": [
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "ONS",
+							"internal": false,
+							"children": [
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "NOMURA-BPI",
+			"internal": false,
+			"children": [
+				{
+					"label": "Main Indices",
+					"internal": false,
+					"children": [
+						{
+							"label": "BPI",
+							"internal": false,
+							"children": [
+								{
+									"label": "Composite",
+									"internal": false,
+									"children": [
+										{
+											"label": "All",
+											"internal": false,
+											"children": [
+												{
+													"label": "Overall",
+													"internal": false,
+													"children": [
+														{
+															"label": "Total Index Value",
+															"internal": false
+														},
+														{
+															"label": "Amount",
+															"internal": false
+														},
+														{
+															"label": "Clean Price Amount",
+															"internal": false
+														},
+														{
+															"label": "Term to Maturity (WAL)",
+															"internal": false
+														},
+														{
+															"label": "Clean Price",
+															"internal": false
+														},
+														{
+															"label": "Dirty Price",
+															"internal": false
+														},
+														{
+															"label": "Coupon Rate",
+															"internal": false
+														},
+														{
+															"label": "Compound Yield",
+															"internal": false
+														},
+														{
+															"label": "Modified Duration",
+															"internal": false
+														},
+														{
+															"label": "Convexity",
+															"internal": false
+														},
+														{
+															"label": "T Spread",
+															"internal": false
+														},
+														{
+															"label": "Total Return (MTD)",
+															"internal": false
+														},
+														{
+															"label": "Capital Return (MTD)",
+															"internal": false
+														},
+														{
+															"label": "Income Return (MTD)",
+															"internal": false
+														}
+													]
+												},
+												{
+													"label": "Short (1-3)",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "Mid (3-7)",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "Long (7-)",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "Long (7-11)",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "Super Long (11-)",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "Super Long (11-15)",
+													"internal": false,
+													"children": []
+												},
+												{
+													"label": "Super Long (15-)",
+													"internal": false,
+													"children": [
+														{
+															"label": "",
+															"internal": false,
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"label": "Excl. JGB",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "Excl. MBS",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "Excl. ABS",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "Excl. MBS & ABS",
+											"internal": false,
+											"children": []
+										}
+									]
+								},
+								{
+									"label": "JGB",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Municipal",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Govt Guaranteed",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Bank Debentures",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Corporate",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "YDFB",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "Corp & YDFB",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "RMBS",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "ABS",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "BPI/Extended",
+							"internal": false,
+							"children": [
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"label": "BPI/Ladder",
+							"internal": false,
+							"children": [
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								},
+								{
+									"label": "",
+									"internal": false,
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Reuters",
+			"internal": false,
+			"children": [
+				{
+					"label": "Commodities",
+					"internal": false,
+					"children": [
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Economics",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Equities",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Government",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Semi-Government",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Inflation Bonds",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Interest Rates",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Swap Curves",
+			"internal": false,
+			"children": [
+				{
+					"label": "Par Yields",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Forward",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Cross Currency Asset Swap Margin",
+			"downloadable": false,
+			"internal": false,
+			"children": [
+				{
+					"label": "Australia",
+					"internal": false,
+					"children": [
+						{
+							"label": "ADLAIR 6.250 20 Sep 16",
+							"internal": false,
+							"children": [
+								{
+									"label": "Fixed",
+									"internal": true,
+									"children": [
+										{
+											"label": "AUD-AUD",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-CNH",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-HKD",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-INO",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-JPY",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-KRO",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-KRW",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-SGD",
+											"internal": false,
+											"children": []
+										},
+										{
+											"label": "AUD-USD",
+											"internal": false,
+											"children": []
+										}
+									]
+								},
+								{
+									"label": "Floating",
+									"internal": true,
+									"children": [
+										{
+											"label": "",
+											"internal": false,
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"label": "ANVAU 5.250 14 Feb 20",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "ANVAU 7.500 01 Apr 21",
+							"internal": false,
+							"children": []
+						},
+						{
+							"label": "ANVAU 7.500 25 Sep 17",
+							"internal": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"label": "Bahamas",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Bermuda",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Canada",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Cayman Islands",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "China",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Eurobond",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "France",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Hong Kong",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "India",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Indonesia",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Japan",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Jersey",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Korea, Republic of",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Malaysia",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Mongolia",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Netherlands, The",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Peru",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Philippines",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Singapore",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Sri Lanka",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Taiwan, Province of China",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Thailand",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "United Arab Emirates",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "United Kingdom",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "United States",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Viet Nam",
+					"internal": false,
+					"children": []
+				},
+				{
+					"label": "Virgin Islands, British",
+					"internal": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"label": "Heritage Series",
+			"internal": true,
+			"children": [
+				{
+					"label": "Heritage Government",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Agency",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Fitted Yields",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Inter-Bank Rates",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Inflation Products",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage IR Derivatives",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Credit",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Securitized Products",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage FX",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Municipals",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage Economics",
+					"internal": true,
+					"children": []
+				},
+				{
+					"label": "Heritage MIDAS",
+					"internal": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"formula": [
+		{
+			"label": "Math",
+			"children": [
+				{
+					"label": "absolute",
+					"formula": "abs",
+					"definition": "<p>Return a time series that contains the <b>absolute</b> value of each data point.</p>",
+					"syntax": "ABS(expr)",
+					"example": "abs(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "average",
+					"formula": "avg",
+					"definition": "<p>Return a time series with the <b>average</b> value of the data points over the selected plotting range.</p>",
+					"syntax": "AVG(expr)",
+					"example": "avg(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "beta",
+					"formula": "beta",
+					"definition": "<p>Returns beta of two time series in a given window of n periods.</p><p><code>Beta(x, y) = Covariance(x,y) / Variance(y)</code></p><p><code>beta</code> is a measure of <code>x</code>'s volatility in relation to <code>y</code>. It indicates how well <code>x</code>'s movement correlates to <code>y</code>'s movement.</p>",
+					"syntax": "beta(expr1, expr2, n)",
+					"example": "beta(RADIAL[50017577]:YIELD, RADIAL[50019183]:YIELD, 30)",
+					"properties": {
+						"Series 1": "",
+						"Series 2": "",
+						"Number of Periods": {
+							"value": 30,
+							"controlType": "input"
+						}
+					}
+				},
+				{
+					"label": "correlation",
+					"formula": "correlation",
+					"definition": "<p>Return the linear correlation of two time series in a given window of <code>n</code> periods.</p>",
+					"syntax": "correlation(expr1, expr2, n)",
+					"example": "correlation(RADIAL[50017577]:YIELD, RADIAL[50019183]:YIELD, 20)",
+					"properties": {
+						"Series 1": "",
+						"Series 2": "",
+						"Number of Periods": 30
+					}
+				},
+				{
+					"label": "change",
+					"formula": "chg",
+					"definition": "<p>Calculate the one-period change for a series, same as <code>delta(expr)</code>.</p>",
+					"syntax": "chg(expr)",
+					"example": "chg(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "change percent",
+					"formula": "chg",
+					"definition": "<p>Calculate the cumulative normal distribution for a series.</p>",
+					"syntax": "chg_pct(expr)",
+					"example": "chg_pct(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "cumulative",
+					"formula": "cum",
+					"definition": "<p>Calculate the one-period percentage changefor a series - Same as <code>delta_pct(expr)</code>.</p>",
+					"syntax": "cum(expr)",
+					"example": "cum(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "cumulative series",
+					"formula": "cumseries",
+					"definition": "<p>Return a time series with the sum of the data point from the beginning of the plotting range to the date in the time series.</p>",
+					"syntax": "cumseries(expr)",
+					"example": "cumseries(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "delta",
+					"formula": "delta",
+					"definition": "<p>Calculate the one-period change for a series, same as <code>chg(expr)</code>.</p>",
+					"syntax": "delta(expr)",
+					"example": "delta(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "delta percent",
+					"formula": "delta_pct",
+					"definition": "Calculate the one-period percentage changefor a series, same as <code>chg_pct(expr)</code>.</p>",
+					"syntax": "delta_pct(expr)",
+					"example": "delta_pct(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "exponential",
+					"formula": "exp",
+					"definition": "<p>Calculate exponential for each data point in the time series and return the new time series.</p>",
+					"syntax": "exp(expr)",
+					"example": "exp(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "exponential moving average",
+					"formula": "ema",
+					"definition": "<p>Return exponential moving average in a given window of <code>n</code> periods.</p>",
+					"syntax": "ema(expr, n)",
+					"example": "ema(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "historical logarithmic volatility",
+					"formula": "hist_log_vol",
+					"definition": "<p>Return the historical logarithmic volatility in a given window of <code>n</code> periods.</p>",
+					"syntax": "hist_log_vol(expr, n)",
+					"example": "hist_log_vol(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "historical standard deviation",
+					"formula": "hist_stddev",
+					"definition": "<p>Return the standard deviation in a given window of <code>n</code> periods.</p>",
+					"syntax": "hist_stddev(expr, n)",
+					"example": "hist_stddev(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "historical volatility",
+					"formula": "hist_vol",
+					"definition": "<p>Return the historical volatility in a given window of n<code>n</code> periods.</p>",
+					"syntax": "hist_vol(expr, n)",
+					"example": "hist_vol(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "natural log",
+					"formula": "ln",
+					"definition": "<p>Calculate natural log for each data point in the time series and return the new time series.</p>",
+					"syntax": "ln(expr)",
+					"example": "ln(RADIAL[50019183]:YIELD/100)"
+				},
+				{
+					"label": "moving average",
+					"formula": "ma",
+					"definition": "<p>Return moving average in a given window of <code>n</code> periods.</p>",
+					"syntax": "ma(expr, n)",
+					"example": "ma(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "mzscore",
+					"formula": "mzscore",
+					"definition": "<p>Return the outlier of a moving average in a given window of <code>n</code> periods.</p>",
+					"syntax": "mzscore(expr, n)",
+					"example": "mzscore(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "period high",
+					"formula": "period_high",
+					"definition": "<p>Return the maximum in a given window of <code>n</code> periods.</p>",
+					"syntax": "period_high(expr, n)",
+					"example": "period_high(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "period low",
+					"formula": "period_low",
+					"definition": "<p>Return the minimum in a given window <code>n</code> periods.</p>",
+					"syntax": "period_low(expr, n)",
+					"example": "period_low(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "rate change percent",
+					"formula": "rate_chg_pct",
+					"definition": "<p>Calculates the rate change percentage of a series against the first point in the series. If a date (optional) is passed to the function, the rate change percentage is based on the value of the specified date.</p>",
+					"syntax": "rate_chg_pct(expr, [date])",
+					"example": "rate_chg_pct(RADIAL[50017577]:YIELD)"
+				},
+				{
+					"label": "round",
+					"formula": "round",
+					"definition": "<p>Round the given time series value to the nearest <code>n</code> decimals.</p>",
+					"syntax": "round(expr, n)",
+					"example": "round(RADIAL[50019183]:YIELD, 3)"
+				},
+				{
+					"label": "rolling regression",
+					"formula": "regress",
+					"definition": "<p>A rolling regression is where the parameters are estimated on a moving data window rather than on the full data set.</p><p><code>EST</code> estimate of the value lookAhead periods ahead of the last point int the regression.</p><p><code>RES</code> residual of the value lookAhead periods ahead of the last point int the regression.</p><p><code>C0..CN</code> coefficient of dependend variable <code>N - CN</code> (last coefficient) gives the intercept.</p><p><code>RSQ</code> R-squared value of the regression.</p><p><code>SEE</code> standard error of the estimate.</p><p><code>ZSC</code> <code>zscore</code> of the last residual in the rolling window.</p><p><code>FST</code> F-statistics provides a measure for the probability that different sets of data have the same variance.</p><p><code>SGF</code> Significance of F-statistics, with a value between between 0 and 1.</p>",
+					"syntax": "regress(token, ind. var 1-N, dep var, points)",
+					"example": "regress(\"RSQ\", RADIAL[50019183]:YIELD, RADIAL[50017577]:YIELD, 100)"
+				},
+				{
+					"label": "rsi",
+					"formula": "rsi",
+					"definition": "<p>A measure of the sum of ups and the sum of downs in a given window of <code>n</code> periods, normalized to be a number between 0 and 100. The higher the result, the more frequently the expression has been going up in that window.</p>",
+					"syntax": "rsi(expr, n)",
+					"example": "rsi(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "smooth rsi",
+					"formula": "srsi",
+					"definition": "<p>A smooth measure of the sum of ups and the sum of downs in a given window of <code>n</code> periods, normalized to be a number between 0 and 100: the higher the result, the more frequently the expression has been going up in that window.</p>",
+					"syntax": "srsi(expr, n)",
+					"example": "srsi(RADIAL[50019183]:YIELD, 20)"
+				},
+				{
+					"label": "square root",
+					"formula": "sqrt",
+					"definition": "<p>Calculate square root for each data point in the time series and return the new time series.</p>",
+					"syntax": "sqrt(expr)",
+					"example": "sqrt(RADIAL[50019183]:YIELD/100)"
+				},
+				{
+					"label": "standard deviation",
+					"formula": "std",
+					"definition": "<p>Return a time series with the standard deviation of the data points over the selected plotting range as entire population. Equivalent to Excel's <code>stdevp()</code> function.</p>",
+					"syntax": "std(expr)",
+					"example": "std(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "standard deviation for sample",
+					"formula": "stds",
+					"definition": "<p>Return a time series with the standard deviation of the data points over the selected plotting range as a sample. Equivalent to Excel <code>stdev()</code> function.</p>",
+					"syntax": "stds(expr)",
+					"example": "stds(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "truncate",
+					"formula": "trunc",
+					"definition": "<p>Truncate the given time series value in <code>n</code> decimals.</p>",
+					"syntax": "trunc(expr, n)",
+					"example": "trunc(RADIAL[50019183]:YIELD, 3)",
+					"properties": {
+						"Number of Decimals": 2
+					}
+				},
+				{
+					"label": "zscore",
+					"formula": "zscore",
+					"definition": "<p>Return a time series outlier with the average value of the data points over the selected plotting range.</p>",
+					"syntax": "zscore(expr)",
+					"example": "zscore(RADIAL[50019183]:YIELD)",
+					"properties": {}
+				}
+			]
+		},
+		{
+			"label": "Date",
+			"children": [
+				{
+					"label": "begin of month",
+					"formula": "bom",
+					"definition": "<p>Return the first data point of each month.</p>",
+					"syntax": "bom(expr)",
+					"example": "bom(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "begin of quarter",
+					"formula": "boq",
+					"definition": "<p>Return the first data point for the beginning of each quarter.</p>",
+					"syntax": "boq(expr)",
+					"example": "boq(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "begin of year",
+					"formula": "boy",
+					"definition": "<p>Return the first data point for the beginning of year.</p>",
+					"syntax": "boy(expr)",
+					"example": "boy(RADIAL[50019183]:YIELD)"
+				},
+				{
+					"label": "date"
+				},
+				{
+					"label": "day"
+				},
+				{
+					"label": "eom"
+				},
+				{
+					"label": "eoq"
+				},
+				{
+					"label": "eoy"
+				},
+				{
+					"label": "friday"
+				},
+				{
+					"label": "julian"
+				},
+				{
+					"label": "lag"
+				},
+				{
+					"label": "lag_date"
+				},
+				{
+					"label": "mns"
+				},
+				{
+					"label": "mom"
+				},
+				{
+					"label": "monday"
+				},
+				{
+					"label": "month"
+				},
+				{
+					"label": "month_avg"
+				},
+				{
+					"label": "prev"
+				},
+				{
+					"label": "qoq"
+				},
+				{
+					"label": "qtr_avg"
+				},
+				{
+					"label": "saturday"
+				},
+				{
+					"label": "sunday"
+				},
+				{
+					"label": "thursday"
+				},
+				{
+					"label": "tuesday"
+				},
+				{
+					"label": "wednesday"
+				},
+				{
+					"label": "year"
+				},
+				{
+					"label": "year_avg"
+				},
+				{
+					"label": "yoy"
+				}
+			]
+		},
+		{
+			"label": "Special",
+			"children": [
+				{
+					"label": "butterfly spread (fly)"
+				},
+				{
+					"label": "cut"
+				},
+				{
+					"label": "cut_date"
+				},
+				{
+					"label": "cut_less"
+				},
+				{
+					"label": "cut_more"
+				},
+				{
+					"label": "daily"
+				},
+				{
+					"label": "first"
+				},
+				{
+					"label": "forecast_factor"
+				},
+				{
+					"label": "forecast_factor_annual"
+				},
+				{
+					"label": "forecast_splice"
+				},
+				{
+					"label": "if"
+				},
+				{
+					"label": "last"
+				},
+				{
+					"label": "priorty_forecast_splice"
+				},
+				{
+					"label": "scalar"
+				},
+				{
+					"label": "splice"
+				},
+				{
+					"label": "value"
+				}
+			]
+		}
+	]
+}

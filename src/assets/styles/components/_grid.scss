@@ -1,6 +1,0 @@
-.container {
-	@media (min-width: $screen-lg-min) {
-		// Disable LG viewport. Also in _mixins.scss
-		width: $container-md;
-	}
-}

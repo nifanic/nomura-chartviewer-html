@@ -1,0 +1,62 @@
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+$fa-font-path: "~font-awesome/fonts";
+
+$color-red: rgb(202, 36, 32) !default;
+
+$color-gray: rgb(115, 115, 115) !default;
+$color-gray-light: mix($color-gray, white, 70%) !default;
+$color-gray-pale: mix($color-gray, white, 45%) !default;
+
+// PMS 5493
+$color-aqua: rgb(128, 169, 174) !default;
+$color-aqua-light: mix($color-aqua, white, 40%) !default;
+$color-aqua-pale: mix($color-aqua, white, 70%) !default;
+
+// PMS 315
+$color-teal: rgb(0, 103, 122) !default;
+$color-teal-light: rgb(100, 156, 179) !default;
+$color-teal-pale: rgb(167, 198, 212) !default;
+
+// PMS 371
+$color-olive: rgb(90, 116, 0) !default;
+$color-olive-light: rgb(143, 157, 102) !default;
+$color-olive-pale: rgb(192, 201, 167) !default;
+
+// PMS 392
+$color-citron: rgb(154, 149, 0) !default;
+$color-citron-light: mix($color-citron, white, 40%) !default;
+$color-citron-pale: mix($color-citron, white, 70%) !default;
+
+// PMS 7407
+$color-lemon: rgb(220, 185, 64) !default;
+$color-lemon-light: mix($color-lemon, white, 40%) !default;
+$color-lemon-pale: mix($color-lemon, white, 70%) !default;
+
+// PMS 7414
+$color-harvest: rgb(204, 141, 25) !default;
+$color-harvest-light: mix($color-harvest, white, 40%) !default;
+$color-harvest-pale: mix($color-harvest, white, 70%) !default;
+
+// PMS 492
+$color-ruby: rgb(143, 51, 54) !default;
+$color-ruby-light: mix($color-ruby, white, 40%) !default;
+$color-ruby-pale: mix($color-ruby, white, 70%) !default;
+
+// PMS 295
+$color-blue: rgb(0, 48, 92) !default;
+$color-blue-light: rgb(96, 119, 163) !default;
+$color-blue-pale: rgb(160, 173, 203) !default;
+
+// PMS 222
+$color-burgundy: rgb(128, 0, 63) !default;
+$color-burgundy-light: rgb(153, 94, 122) !default;
+$color-burgundy-pale: rgb(196, 163, 177) !default;
+
+// PMS 349
+$color-green: rgb(0, 113, 59) !default;
+$color-green-light: rgb(107, 153, 119) !default;
+$color-green-pale: rgb(169, 195, 176) !default;
+
+$color-bg: rgb(243, 243, 243) !default;
+$color-ui-border: mix($color-gray-pale, white, 50%);

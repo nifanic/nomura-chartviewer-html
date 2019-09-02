@@ -1,0 +1,130 @@
+$rowHeight: 25px;
+
+.jstree {
+	align-items: stretch;
+	padding-left: 0;
+	padding-right: 0;
+
+	&-default {
+		.jstree {
+			&-icon {
+				&:empty {
+					width: $rowHeight;
+					height: $rowHeight;
+					line-height: $rowHeight;
+				}
+			}
+
+			&-themeicon {
+				margin-right: 4px;
+
+				&:empty {
+					width: 16px;
+				}
+
+				&.fa-folder {
+					color: #e2c986;
+				}
+
+				&.fa-line-chart {
+					color: $color-red;
+				}
+			}
+
+			&-striped {
+				background-size: auto ($rowHeight * 2);
+			}
+
+			&-ocl {
+				font-family: "FontAwesome";
+				font-size: 12px;
+				transform: rotate(0.001deg);
+				text-decoration: none;
+				font-style: normal;
+				color: #737373;
+			}
+
+			&-leaf {
+				> .jstree-ocl {
+					background: none;
+				}
+			}
+
+			&-node {
+				background: none;
+				min-height: $rowHeight;
+				line-height: $rowHeight;
+				min-width: $rowHeight;
+
+				&.jstree-open {
+					> .jstree-ocl {
+						background: none;
+
+						&:before {
+							content: "\f078";
+						}
+					}
+				}
+
+				&.jstree-closed {
+					> .jstree-ocl {
+						background: none;
+						display: inline-flex;
+						align-items: center;
+						justify-content: center;
+						line-height: normal;
+
+						&:before {
+							content: "\f054";
+						}
+					}
+				}
+			}
+
+			&-last {
+				background: none;
+			}
+
+			&-anchor {
+				padding-left: 0;
+				color: black;
+				line-height: $rowHeight;
+				height: $rowHeight;
+
+				> .formula {
+					font-family: monospace;
+
+					+ .formula-description {
+						color: $color-gray-light;
+					}
+				}
+			}
+
+			&-wholerow {
+				height: $rowHeight;
+
+				&-clicked {
+					background: none;
+					background-color: #737373 !important;
+					color: white;
+
+					+ .jstree-ocl {
+						color: rgba(white, 0.5);
+
+						+ .jstree-anchor {
+							color: white;
+
+							> .jstree-icon.fa-line-chart {
+								color: #eebebd;
+							}
+						}
+					}
+				}
+
+				&-hovered {
+					background: #dedede;
+				}
+			}
+		}
+	}
+}

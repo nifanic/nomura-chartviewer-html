@@ -1,0 +1,131 @@
+html {
+	position: relative;
+	min-height: 100%;
+	height: auto;
+}
+
+body {
+	min-width: 375px; // iPhone 6
+	color: #a0a0a0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #f3f3f3;
+	margin-bottom: 40px;
+}
+
+a {
+	color: black;
+	outline: 0 !important;
+	transition: color 0.15s ease, background 0.15s ease;
+
+	&:hover,
+	&:focus {
+		color: black;
+		text-decoration: underline;
+	}
+}
+
+.text {
+	&-not-link {
+		pointer-events: none;
+		cursor: default;
+	}
+
+	&-keep-together {
+		white-space: nowrap;
+		display: inline;
+	}
+}
+
+.truncate {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.slick-slide {
+	outline: none;
+}
+
+.alert {
+	/* padding: 11px 15px;
+	
+	* {
+		font-size: 12px;
+		line-height: 14px;
+		margin: 0 0 3px;
+		padding: 0;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		+ * {
+			margin-top: 3px;
+		}
+	}
+
+	> ul {
+		margin-left: 15px;
+		list-style-type: disc;
+		padding: 0;
+
+		> li {
+			padding: 0;
+			margin: 0 0 3px;
+		}
+	}
+
+	&-warning {
+		background-color: #fcf8ec;
+		border-color: #f8f1d9;
+		color: #dcb940;
+	} */
+
+	&-warning {
+		background-color: rgba(220, 185, 64, 0.1);
+		border-color: rgba(220, 185, 64, 0.15);
+		color: rgb(220, 185, 64);
+		padding: 7px 10px;
+	}
+}
+
+.help-block {
+	display: none;
+}
+
+.has-error {
+	.control-label {
+		color: red !important;
+	}
+
+	.form-control {
+		border-color: red;
+		background-color: rgba(255, 0, 0, 0.05);
+	}
+
+	.help-block {
+		display: block;
+		color: red;
+		font-size: 13px;
+		line-height: 15px;
+		margin-bottom: 3px;
+	}
+}
+
+.dropdown-menu {
+	> .active {
+		> a {
+			&,
+			&:hover,
+			&:focus {
+				background-color: #1f798a;
+			}
+		}
+	}
+}
+
+kbd {
+	background-color: #a0a0a0;
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}

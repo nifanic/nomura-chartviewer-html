@@ -1,0 +1,86 @@
+/**
+ *	Dotted World Map
+ *	v1.0
+ */
+
+.map {
+	&,
+	& > * {
+		background-image: url("../../static/img/sprite--nomura--world-map--v1.0.png");
+		background-repeat: no-repeat;
+		background-position: 9999px 9999px;
+	}
+
+	& {
+		background-position: -205px -95px;
+		display: block;
+		height: 97px;
+		width: 185px;
+		position: relative;
+	}
+
+	> * {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	&-bg {
+		&-white {
+			background-position: -10px -95px;
+		}
+
+		&-black {
+			background-position: -595px -95px;
+		}
+
+		&-light {
+			background-position: -205px -95px;
+		}
+
+		&-dark {
+			background-position: -400px -95px;
+		}
+	}
+
+	&-filled {
+		> .japan {
+			background-position: -595px -218px;
+		}
+
+		> .aej {
+			background-position: -400px -218px;
+		}
+
+		> .emea {
+			background-position: -205px -218px;
+		}
+
+		> .americas {
+			background-position: -10px -218px;
+		}
+	}
+
+	&-outlined {
+		> .japan {
+			background-position: -595px -325px;
+		}
+
+		> .aej {
+			background-position: -400px -325px;
+		}
+
+		> .emea {
+			background-position: -205px -325px;
+		}
+
+		> .americas {
+			background-position: -10px -325px;
+		}
+	}
+}
