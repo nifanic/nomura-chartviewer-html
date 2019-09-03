@@ -301,8 +301,7 @@ if (dataHighchart) {
 		});
 	}
 	chartOptions.series = processJsonSeries;
-	//
-	chart = new Highcharts.chart(chartDiv.selector.slice(1), chartOptions);
+	chart = new Highcharts.chart(chartDiv.attr("id"), chartOptions);
 
 	// Resizable for Highchart
 	if (chartDiv.length) {
