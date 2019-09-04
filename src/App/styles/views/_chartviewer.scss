@@ -803,7 +803,7 @@ main.global {
 				position: relative;
 
 				&.ui-resizable {
-					margin-bottom: 17px;
+					padding-bottom: 17px;
 
 					> .ui-resizable-handle {
 						position: absolute;
@@ -811,8 +811,9 @@ main.global {
 						&.ui-resizable-s {
 							height: 9px;
 							left: inherit;
-							bottom: -17px;
+							bottom: 0;
 							cursor: row-resize;
+							position: absolute;
 
 							&:before {
 								content: "";

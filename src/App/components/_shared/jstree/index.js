@@ -168,7 +168,7 @@ export function getChildren(path) {
 export function hideChildren(datas) {
 	return !!!datas
 		? null
-		: datas.reduce((list, entry /*, index, array*/) => {
+		: datas.reduce((list, entry) => {
 				let clone = null;
 				if (entry.children && entry.children.length) {
 					const children = hideChildren(entry.children);
@@ -176,8 +176,6 @@ export function hideChildren(datas) {
 						clone = { ...entry, children };
 					}
 				} else {
-					// Remove empty "children" field
-					// delete entry.children;
 					clone = { state: { hidden: true }, ...entry };
 				}
 				clone && list.push(clone);
