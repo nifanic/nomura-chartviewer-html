@@ -500,41 +500,41 @@ export class ModalAdd {
 	}
 
 	// TODO: Implement setActiveItem
-	/*setActiveItem(itemId) {
-		const { data: dataAdd, divFinder, divTreePane } = this;
-		if (itemId && dataAdd && typeof dataAdd == "object") {
-			const { data: dataType, view } = this.toolbarState;
-			let parents = [];
-			// Data source doesn't contain "Home" element, so index should start with 0
-			itemId--;
-			//
-			switch (view) {
-				case MODAL_ADD_VIEW_FINDER:
-					if (divFinder) {
-						parents = [
-							...divFinder[0].querySelectorAll(".fjs-has-children.fjs-active")
-						].map(parent => parent._item.id.toString());
-					}
-					break;
-				case MODAL_ADD_VIEW_TREE:
-					if (divTreePane) {
-					}
-					break;
-				default:
-					console.error("Unknown view:", view);
-					return;
-			}
-			
-			const activeItem = dataAdd(dataType).find((element, i) => i === itemId);
-			if (activeItem) {
-				return (this.activeItem = (({ label }) => ({
-					id: itemId,
-					label,
-					...(parents.length && { parents })
-				}))(activeItem));
-			}
-		}
-	}*/
+	// setActiveItem(itemId) {
+	// 	const { data: dataAdd, divFinder, divTreePane } = this;
+	// 	if (itemId && dataAdd && typeof dataAdd == "object") {
+	// 		const { data: dataType, view } = this.toolbarState;
+	// 		let parents = [];
+	// 		// Data source doesn't contain "Home" element, so index should start with 0
+	// 		itemId--;
+	// 		//
+	// 		switch (view) {
+	// 			case MODAL_ADD_VIEW_FINDER:
+	// 				if (divFinder) {
+	// 					parents = [
+	// 						...divFinder[0].querySelectorAll(".fjs-has-children.fjs-active")
+	// 					].map(parent => parent._item.id.toString());
+	// 				}
+	// 				break;
+	// 			case MODAL_ADD_VIEW_TREE:
+	// 				if (divTreePane) {
+	// 				}
+	// 				break;
+	// 			default:
+	// 				console.error("Unknown view:", view);
+	// 				return;
+	// 		}
+	//
+	// 		const activeItem = dataAdd(dataType).find((element, i) => i === itemId);
+	// 		if (activeItem) {
+	// 			return (this.activeItem = (({ label }) => ({
+	// 				id: itemId,
+	// 				label,
+	// 				...(parents.length && { parents })
+	// 			}))(activeItem));
+	// 		}
+	// 	}
+	// }
 
 	setFinderActiveNode(itemId) {
 		const { divFinder } = this;
