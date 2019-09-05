@@ -1,10 +1,18 @@
 # Nomura® ChartViewer HTML Prototype
 
+The HTML prototype has been created for Nomura Securities to—
+
+- improve overall user experience;
+- migrate from Flex to HTML5 technology stack;
+- test how Nomura’s revamped user interface would work with [Highcharts](https://www.highcharts.com/) and [SlickGrid](https://github.com/mleibman/SlickGrid) components.
+
+![Main Screen with Chart Expand Feature](src/static/img/nomura-chartviewer-screenshot.gif)
+
 ## Components
 
 1. HTML5
 1. CSS3/[SASS](https://sass-lang.com/)
-1. [jQuery 2.2.4](https://jquery.com/)
+1. [jQuery 3.4.1](https://jquery.com/)
 1. [Bootstrap 3.4](https://getbootstrap.com/docs/3.4/)
 1. [HighCharts](https://www.highcharts.com/)
 1. [SlickGrid](https://github.com/mleibman/SlickGrid)
