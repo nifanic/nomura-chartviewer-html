@@ -22,7 +22,8 @@ import {
 	clearButton,
 	userMenuEvents,
 	touchSpin,
-	colorSelector
+	colorSelector,
+	highchart
 } from "./components";
 
 $(document).ready(() => {
@@ -38,6 +39,7 @@ $(document).ready(() => {
 		{ propertiesName: "precision", initval: 1, min: 1, max: 10 }
 	]);
 	colorSelector();
+	highchart();
 });
 
 $(window).resize(() => {
